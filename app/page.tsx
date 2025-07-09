@@ -17,7 +17,7 @@ export default function HomePage() {
   }
 
   const openWhatsApp = () => {
-    const phoneNumber = "8615550616868"
+    const phoneNumber = "00852-64711065"
     const message =
       "Hello! I'm interested in HWZ Industrial Technology products and would like to learn more about your solutions."
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
