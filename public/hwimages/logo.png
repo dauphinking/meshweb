@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://zf032111.demo.cssmoban.com:8020/ -->
+<html lang="en-AU">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>HWZ Industrial Technology | Mining & Machinery Solutions Australia</title>
+  <meta name="description" content="HWZ Industrial Technology provides advanced mining screens, machinery, and automation solutions for Australia. Quality, innovation, and reliability for the mining and construction industries.">
+  <meta name="keywords" content="mining screens, industrial machinery, automation, Australia, mining equipment, HWZ, mining solutions">
+  <meta name="author" content="HWZ Industrial Technology">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta content="email=no" name="format-detection">
+  <link href="./pintuer.css" rel="stylesheet">
+  <script src="./jquery.js"></script>
+  <script src="./pintuer.js"></script>
+  <script src="./respond.min.js"></script>
+  <link href="./style.css" type="text/css" rel="stylesheet">
+  <!-- Google Analytics (placeholder) -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script> -->
+  <!-- Facebook Pixel (placeholder) -->
+  <!-- <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'FACEBOOK_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script> -->
+</head>
+
+<body style="width: 1920px;">
+<div  style="width: 1920px;
+height: 118px;
+background: #FFFFFF;display: flex;flex-direction: row;">
+      <div style="position: absolute;top: 15px;left: 255px;">
+      <img src="./hwimages/logo.png" alt="HWZ Industrial Technology Logo">
+      </div>
+      <div style="width: 1920px;
+      height: 118px;
+      background: #FFFFFF;position: absolute;top: 34px;left: 1391px;">
+      <img src="./hwimages/3.png" alt="Mining Equipment Australia">
+    </div>
+    <div style="width: 200px; height: 80px; position: absolute; top: 38px; left: 1454px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center;">
+      <span style="font-size: 16px; color: #034595; line-height: 22px; font-weight: 600;">Customer Service</span>
+      <span style="font-size: 28px; font-weight: 800; color: #ED6601; line-height: 36px; margin-top: 8px;">400-079-6667</span>
+    </div>
+</div>
+
+<!--end header-->
+<div class="banner" data-pointer="1" data-interval="5" data-item="1" data-small="1" data-middle="1" data-big="1"
+     data-style="border-main">
+  <div class="carousel" style="width: 1920px; height: 780px;">
+    <div class="item" style="width: 1920px;height: 780px;">
+      <a>
+        <img src="./hwimages/lbt1.png" alt="Mining Solutions Australia">
+        <div
+                style="position:absolute; left:255px; top:290px;width: 600px; height: 52px; font-size: 53px; font-family: Lantinghei SC; font-weight: 600; color: #FEFEFE;">
+          HWZ Industrial Technology
+        </div>
+        <div style="position:absolute; z-index:2; left:255px; top:390px;width: 900px;
+        height: 52px;
+        font-size: 60px;
+        font-family: Lantinghei SC;
+        font-weight: 600;
+        color: #FEFEFE;">
+          Leading Technology, Quality First for Australia
+        </div>
+      </a>
+    </div>
+    <div class="item" style="width: 1903px;"><a><img src="./hwimages/lbt1.png" alt="Mining Solutions"></a></div>
+  </div>
+  <div class="pager-prev icon-angle-left border-main"></div>
+  <div class="pager-next icon-angle-right border-main"></div>
+</div>
+<!--end banner-->
+<div style="width: 1920px;height: 195px;">
+  <h1 style="width: 300px;
+    position: relative;
+    left: 255px;
+    top: 168px;
+    height: 36px;
+    font-size: 36px;
+    font-family: Lantinghei SC;
+    font-weight: 800;
+    color: #20242F;
+    line-height: 49px;">About Us</h1>
+  <h1 style="position: relative; top:190px; left:255px; width: 23px; height: 6px; background-color: #034494;"></h1>
+  <h1 style="position: relative; top:184px; left:278px; width: 23px; height: 6px; background-color: #ED6601;"></h1>
+</div>
+<!--end service-->
+<div class="layout about2 padding-big-top">
+  <div class="container" style="width: 1920px;">
+    <div class="xl12 xs12 xm6 xb6">
+      <blockquote style="position: relative; top: 94px; left: 244px; z-index: 1; width: 751px; font-size: 16px; font-family: Lantinghei SC; font-weight: 200; line-height: 23px;">
+        <b>HWZ Industrial Technology</b> is a leading provider of advanced mining screens, industrial machinery, and automation solutions, proudly serving the Australian mining and construction sectors. Our company, with over 5,000 square meters of production space and state-of-the-art equipment, is committed to delivering products that meet the highest quality standards. We specialise in welded screens, woven screens, polypropylene screens, and a wide range of mining machinery. Our dedicated export team has established long-term partnerships with clients in Australia, Southeast Asia, and Africa. We are devoted to innovation, reliability, and customer satisfaction, supporting the growth and efficiency of our partners in the mining industry.
+      </blockquote>
+      <span style="position: relative; z-index: 1; top: 205px; left: 292px; font-size: 49px; font-family: Lantinghei SC; font-weight: 800; color: #002780; line-height: 66px;">5000+ m²</span>
+      <span style="position: relative; z-index: 1; top: 205px; left: 553px; font-size: 49px; font-family: Lantinghei SC; font-weight: 800; color: #002780; line-height: 66px;">16+ Core Products</span>
+      <span style="position: relative; z-index: 1; top: 237px; left: 78px; font-size: 16px; font-family: Lantinghei SC; font-weight: 200; color: #20242F; line-height: 32px;">Production Area</span>
+      <span style="position: relative; z-index: 1; top: 237px; left: 394px; font-size: 16px; font-family: Lantinghei SC; font-weight: 200; color: #20242F; line-height: 32px;">Core Products</span>
+    </div>
+    <div style="
+        position: relative;
+        z-index: 0;
+        /* height: 535px; */
+        width:100%; 
+        height:auto; 
+        object-fit:scale-down;
+        /* max-height: 100%;  */
+        /* max-width: 100%; */
+        /* object-fit: contain; */
+        background: url(./hwimages/51.png) no-repeat;/*no-repeat:背景图将不会被重复*/
+        background-size: cover;/*背景图片放大到适合元素容器的尺寸，图片比例不变.背景图像的某些部分可能无法显示在背景定位区域中。*/
+        padding-bottom: 42.76%;/*起到的效果是让宽度与高度关联,具体数值=(图片高/图片宽)*/
+        /*图片分辨率为1202*676 约为56.24%*/
+    ">
+      <div>
+        <img style="
+           position: absolute;
+    z-index: 1;
+    top: 113px;
+    left: 1006px;
+    width: 892px;
+    height: 532px;
+              " src="./hwimages/图层41.png" />
+      </div>
+    </div>
+    <!-- <div >
+      <div class="banner">
+        <img class="image2" style="
+        position: absolute;
+        top: 30px;
+        left: 70px;" src="./hwimages/图层 4@2x.png" />
+      </div>
+    </div> -->
+    <div class="clearfix"></div>
+  </div>
+</div>
+<!-- end 关于我们 -->
+<div>
+  <div style="width: 1920px;height: 195px;">
+    <h1 style="width: 144px;
+    position: relative;
+    left: 255px;
+    top: 168px;
+    height: 36px;
+    font-size: 36px;
+    font-family: Lantinghei SC;
+    font-weight: 800;
+    color: #20242F;
+    line-height: 49px;">Premium Screens</h1>
+    <h1 style="
+      position: relative;
+      top:190px;
+      left:255px;
+      width: 23px;
+      height: 6px;
+      background-color: #034494;"></h1>
+    <h1 style="
+      position: relative;
+      top:184px;
+      left:278px;
+      width: 23px;
+      height: 6px;
+      background-color: #ED6601;"></h1>
+  </div>
+  <div style="width: 100%;height: 821px;display: flex;flex-direction: row;">
+    <div style="
+      position: relative;
+          top: 94px;
+          left: 244px;
+          z-index: 0;
+      width: 785px;
+      height: 562px;
+      background: #034494;
+      display: flex;
+      flex-direction: column;">
+      <div style="display: flex;flex-direction: row;">
+      <img style=" 
+    position: absolute;
+z-index: 1;
+top: 104px;
+left: 73px;
+width: 42px;
+height: 52px;
+       " src="./hwimages/zhiliang.png">
+      <div style="
+    position: relative;
+          top: 110px;
+          left: 156px;
+          z-index: 1;
+    width: 376px;
+    height: 40px;
+    font-size: 16px;
+    font-family: Lantinghei SC;
+    font-weight: 200;
+    color: #FFFFFF;
+    line-height: 24px;">Automated welding, long service life, excellent wear resistance, high load capacity, and never delaminates under long-term alternating loads.</div>
+    </div>
+    <div style="display: flex;flex-direction: row;">
+      <img style=" 
+    position: absolute;
+    z-index: 1;
+top: 285px;
+left: 73px;
+width: 40px;
+height: 40px;
+       " src="./hwimages/zan.png">
+      <div style="
+    position: relative;
+     top: 242px;
+          left: 156px;
+          z-index: 1;
+    width: 388px;
+    height: 40px;
+    font-size: 16px;
+    font-family: Lantinghei SC;
+    font-weight: 200;
+    color: #FFFFFF;
+    line-height: 24px;">Wide range of applications, highly specialised, suitable for any type of vibrating screen and can be custom-made.</div>
+    </div>
+    <div style="display: flex;flex-direction: row;">
+      <img style=" 
+    position: absolute;
+    z-index: 1;
+top: 470px;
+left: 72px;
+width: 40px;
+height: 40px;
+       " src="./hwimages/jingzhunyingxiao.png">
+      <div style="
+    position: relative;
+     top: 373px;
+          left: 156px;
+          z-index: 1;
+    width: 388px;
+height: 64px;
+font-size: 16px;
+font-family: Lantinghei SC;
+font-weight: 200;
+color: #FFFFFF;
+line-height: 24px;
+    ">Robotic welding ensures stable parameters, self-cleaning screen surface, no clogging or deformation, and high screening efficiency. Significant economic benefits: low total cost, fast delivery, and minimal maintenance or replacement.</div>
+    </div>
+    </div>
+    <div style="width: 785px;">
+    <img style=" 
+    position: absolute;
+    z-index: 1;
+    top: 2308px;  
+    left: 881px;
+    width: 785px;
+    height: 395px;
+       "
+         src="./hwimages/peitu.png">
+         </div>
+  </div>
+</div>
+<!--end Premium Screens -->
+<div>
+  <div style="width: 1920px;height: 195px;">
+    <h1 style="
+    width: 216px;
+    position: relative;
+    left: 255px;
+    height: 36px;
+    font-size: 36px;
+    font-family: Lantinghei SC;
+    font-weight: 800;
+    color: #20242F;
+    line-height: 49px;">Screen Production Process</h1>
+    <h1 style="
+      position: relative;
+      top:22px;
+      left:255px;
+      width: 23px;
+      height: 6px;
+      background-color: #034494;"></h1>
+    <h1 style="
+      position: relative;
+      top:16px;
+      left:278px;
+      width: 23px;
+      height: 6px;
+      background-color: #ED6601;"></h1>
+  </div>
+  <div style="width: 100%;height: 575px;">
+    <div style="width: 1920px;height: 60px;">
+      <span style="
+      position: relative;
+      left:960px;
+      width: 210px;
+      height: 30px;
+      font-size: 30px;
+      font-family: Lantinghei SC;
+      font-weight: 800;
+      color: #002780;
+      line-height: 66px;">Robotic Welding</span>
+      <span style="
+      position: relative;
+      left:960px;
+      width: 210px;
+      height: 30px;
+      font-size: 30px;
+      font-family: Lantinghei SC;
+      font-weight: 800;
+      color: #ED6601;
+      line-height: 66px;">Advantages</span>
+    </div>
+    <div style="
+       float:left;
+      position: relative;
+      top: 24px;
+      left:179px;
+      width:669px;
+      height:491px">
+      <img style="
+      position: absolute;
+      width: 669px;
+      height: 491px;
+         " src="./hwimages/配图.png">
+    </div>
+    <div style="
+      float:left;
+      position: relative;
+      top: 24px;
+      left:300px;
+      width:669px;
+      height:491px;
+      ">
+      <div style="float:left;width: 330px;height: 245px;">
+        <span style="
+        position: relative;
+        top: 40px;
+        width: 126px;
+        height: 19px;
+        font-size: 18px;
+        font-family: Lantinghei SC;
+        font-weight: 800;
+        color: #20242F;
+        line-height: 36px;
+        ">Automated Machinery</span>
+        <span style="
+        float: left;
+        position: relative;
+        top: 40px;
+        width: 288px;
+        height: 88px;
+        font-size: 16px;
+        font-family: Lantinghei SC;
+        font-weight: 200;
+        color: #20242F;
+        line-height: 24px;
+        ">Robotic welding ensures clear production cycles and easy control of output. The fixed production rhythm of robots allows for precise production planning, maximising efficiency and resource utilisation.</span>
+      </div>
+      <div style="float:left;width: 330px;height: 245px;">
+        <span style="
+        position: relative;
+        top: 40px;
+        width: 126px;
+        height: 19px;
+        font-size: 18px;
+        font-family: Lantinghei SC;
+        font-weight: 800;
+        color: #20242F;
+        line-height: 36px;
+        ">Increased Productivity</span>
+        <span style="
+        float: left;
+        position: relative;
+        top: 40px;
+        width: 288px;
+        height: 88px;
+        font-size: 16px;
+        font-family: Lantinghei SC;
+        font-weight: 200;
+        color: #20242F;
+        line-height: 24px;
+        ">Robotic welding is fast and responsive, with speeds far exceeding manual welding. Robots operate continuously without breaks, significantly improving productivity and reducing costs.</span>
+      </div>
+      <div style="float:left;width: 330px;height: 245px;">
+        <span style="
+        position: relative;
+        top: 40px;
+        width: 126px;
+        height: 19px;
+        font-size: 18px;
+        font-family: Lantinghei SC;
+        font-weight: 800;
+        color: #20242F;
+        line-height: 36px;
+        ">Improved Working Environment</span>
+        <span style="
+        float: left;
+        position: relative;
+        top: 40px;
+        width: 288px;
+        height: 88px;
+        font-size: 16px;
+        font-family: Lantinghei SC;
+        font-weight: 200;
+        color: #20242F;
+        line-height: 24px;
+        ">Welding is a demanding and hazardous job requiring skilled operators. Robotic welding improves working conditions and can operate in environments unsuitable for humans.</span>
+      </div>
+      <div style="float:left;width: 330px;height: 245px;">
+        <span style="
+        position: relative;
+        top: 40px;
+        width: 126px;
+        height: 19px;
+        font-size: 18px;
+        font-family: Lantinghei SC;
+        font-weight: 800;
+        color: #20242F;
+        line-height: 36px;
+        ">Enhanced Quality</span>
+        <span style="
+        float: left;
+        position: relative;
+        top: 40px;
+        width: 288px;
+        height: 88px;
+        font-size: 16px;
+        font-family: Lantinghei SC;
+        font-weight: 200;
+        color: #20242F;
+        line-height: 24px;
+        ">Robotic welding maintains stable performance throughout the process. Once parameters and paths are set, robots repeat actions precisely, minimising human error and skill requirements.</span>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Screen Production Process -->
+<div>
+  <div style="width: 1920px;height: 195px;">
+    <h1 style="
+    width: 288px;
+    position: relative;
+    left: 255px;
+    height: 36px;
+    font-size: 36px;
+    font-family: Lantinghei SC;
+    font-weight: 800;
+    line-height: 49px;"><span style="color: #ED6601;">HWZ</span> Screen Series</h1>
+    <h1 style="
+      position: relative;
+      top:190px;
+      left:255px;
+      width: 23px;
+      height: 6px;
+      background-color: #034494;"></h1>
+    <h1 style="
+      position: relative;
+      top:184px;
+      left:278px;
+      width: 23px;
+      height: 6px;
+      background-color: #ED6601;"></h1>
+  </div>
+  <div style="width: 100%;height: 1000px;">
+    <div style="
+    position: relative;
+    top: 66px;
+    left: 256px;
+    display: flex;
+    flex-direction: column
+">
+      <div style="width: 1920px;height: 450px">
+      <div class="xl6 xs6 xm4 xb3">
+          <div class="proitem" style="
+          width: 462px;
+        height: 447px;
+        background: #F0F4F7;">
+            <img class="hwzzswxl_img" src="./hwimages/资源 1@2x-8.png" class="fadein">
+            <div style="position: relative;top: 43px; width: 100%;text-align: center;height: 24px;font-size: 18px;font-family: Lantinghei SC;font-weight: 600;color: #20242F;line-height: 24px;">Anti-Clogging Screen</div>
+          </div>
+      </div>
+        <div class="xl6 xs6 xm4 xb3">
+          <div class="proitem"
+               style="width: 462px;height: 447px;background: #F0F4F7;">
+            <img class="hwzzswxl_img" src="./hwimages/资源 2@2x-81.png" alt="Dewatering Screen" class="fadein">
+            <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Dewatering Screen</div>
+          </div>
+        </div>
+        <div class="xl6 xs6 xm4 xb3">
+          <div class="proitem" style="width: 462px;
+        height: 447px;
+        background: #F0F4F7;">
+            <img class="hwzzswxl_img" src="./hwimages/资源 3@2x-8.png" alt="Welded Screen" class="fadein">
+            <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Welded Screen</div>
+          </div>
+        </div>
+      </div>
+      <div style="width: 1920px;height: 550px">
+      <div class="xl6 xs6 xm4 xb3">
+        <div class="proitem" style="
+        float: initial;
+        width: 462px;
+        height: 447px;
+        background: #F0F4F7;">
+          <img class="hwzzswxl_img" src="./hwimages/资源 2@2x-8.png" alt="Woven Wire Screen" class="fadein">
+          <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Woven Wire Screen</div>
+        </div>
+      </div>
+      <div class="xl6 xs6 xm4 xb3">
+        <div class="proitem" style="width: 462px;
+        height: 447px;
+        background: #F0F4F7;">
+          <img class="hwzzswxl_img" src="./hwimages/资源 3@2x-81.png" alt="Perforated Plate Screen" class="fadein">
+          <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Perforated Plate Screen</div>
+        </div>
+      </div>
+        </div>
+    </div>
+      <div class="clearfix"></div>
+  </div>
+</div>
+<!-- end HWZ Screen Series -->
+<div style="position: relative;top: 138px;width: 1920px;height:950px;background-image: url(./hwimages/bg.png);display: flex;flex-direction: column">
+  <div style="position:relative;top:112px;width: 100%;text-align: center"><span style="width: 179px;
+height: 35px;
+font-size: 36px;
+font-family: Lantinghei SC;
+font-weight: 800;
+color: #FFFFFF;
+line-height: 49px;">制砂生产线</span></div>
+<div style="
+position:absolute;top:220px;left: 254px;
+width: 1412px;
+height: 336px;
+background: #FFFFFF;">
+  <div style="position:absolute;top:71px;left: 29px;border: 1px dashed;width: 1354px;height: 138px">
+  <img src="./hwimages/6@2x-8.png">
+  </div>
+  <div style="display:flex;flex-direction:row;width: 969px;">
+    <span style="position:absolute;top:242px;left: 222px; width: 91px; height: 36px; font-size: 18px; font-family: Lantinghei SC; font-weight: 200; color: #20242F; line-height: 36px;">Vibrating Feeder</span>
+    <span style="position:absolute;top:242px;left: 395px; width: 90px; height: 36px; font-size: 18px; font-family: Lantinghei SC; font-weight: 200; color: #20242F; line-height: 36px;">Jaw Crusher</span>
+    <span style="position:absolute;top:242px;left: 584px; width: 73px; height: 36px; font-size: 18px; font-family: Lantinghei SC; font-weight: 200; color: #20242F; line-height: 36px;">Circular Vibrating Screen</span>
+    <span style="position:absolute;top:242px;left: 738px; width: 144px; height: 36px; font-size: 18px; font-family: Lantinghei SC; font-weight: 200; color: #20242F; line-height: 36px;">Sand Making Machine (Shaping Machine)</span>
+    <span style="position:absolute;top:242px;left: 932px; width: 90px; height: 36px; font-size: 18px; font-family: Lantinghei SC; font-weight: 200; color: #20242F; line-height: 36px;">Multi-cylinder Hydraulic Cone Crusher</span>
+    <span style="position:absolute;top:242px;left: 1082px; width: 108px; height: 36px; font-size: 18px; font-family: Lantinghei SC; font-weight: 200; color: #20242F; line-height: 36px;">Fine Sand Recovery Device</span>
+  </div>
+</div>
+  <div style="position:absolute;top:640px;width: 100%;text-align: center"><span style="width: 143px; height: 35px; font-size: 36px; font-family: Lantinghei SC; font-weight: 800; color: #FFFFFF; line-height: 49px;">Process Features</span></div>
+  <div style="position:absolute;top:727px;left:254px;width: 1412px;height: 106px;display: flex;flex-direction: row;justify-content: space-between">
+    <div style="width: 350px; height: 106px; background: #034494;">
+      <span style="position:absolute;top:46px;left: 110px; width: 128px; height: 16px; font-size: 16px; font-family: Lantinghei SC; font-weight: 200; color: #FEFEFE; line-height: 24px;">Fine Sand Recovery Device</span>
+    </div>
+    <div style="width: 350px; height: 106px; background: #034494;">
+      <span style="position:absolute;top:46px;left: 418px; width: 224px; height: 16px; font-size: 16px; font-family: Lantinghei SC; font-weight: 200; color: #FEFEFE; line-height: 24px;">Reasonable grading of finished sand, flexible fineness adjustment</span>
+    </div>
+    <div style="width: 350px; height: 106px; background: #034494;">
+      <span style="position:absolute;top:46px; width: 350px; height: 16px; font-size: 16px; font-family: Lantinghei SC; font-weight: 200; color: #FEFEFE; line-height: 24px;text-align: center">All finished sand indicators meet national standards,</br> making it a premium concrete aggregate</span>
+    </div>
+    <div style="width: 350px; height: 106px; background: #034494;">
+      <span style="position:absolute;top:46px;right: 80px; width: 192px; height: 16px; font-size: 16px; font-family: Lantinghei SC; font-weight: 200; color: #FEFEFE; line-height: 24px;">Low production cost and high efficiency of finished sand</span>
+    </div>
+  </div>
+</div>
+
+
+<!-- 制砂生产线 -->
+
+<div>
+  <div style="width: 1920px;height: 195px;">
+    <h1 style="width: 360px;
+    position: relative;
+    left: 255px;
+    top: 168px;
+    height: 36px;
+    font-size: 36px;
+    font-family: Lantinghei SC;
+    font-weight: 800;
+    color: #20242F;
+    line-height: 49px;"><span style="color: #ED6601;">HWZ</span> Machinery Product Series</h1>
+    <h1 style="
+      position: relative;
+      top:190px;
+      left:255px;
+      width: 23px;
+      height: 6px;
+      background-color: #034494;"></h1>
+    <h1 style="
+      position: relative;
+      top:184px;
+      left:278px;
+      width: 23px;
+      height: 6px;
+      background-color: #ED6601;"></h1>
+  </div>
+  <div style="width: 100%;height: 1000px;">
+    <div style="
+    position: relative;
+    top: 66px;
+    left: 256px;
+    display: flex;
+    flex-direction: column
+">
+      <div style="width: 1920px;height: 450px">
+      <div class="xl6 xs6 xm4 xb3">
+          <div class="proitem" style="
+          width: 462px;
+        height: 447px;
+        background: #F0F4F7;">
+            <img class="hwzzswxl_img" src="./hwimages/图层 54.png" class="fadein">
+            <div style="position: relative;top: 43px; width: 100%;text-align: center;height: 24px;font-size: 18px;font-family: Lantinghei SC;font-weight: 600;color: #20242F;line-height: 24px;">Spiral Sand Washer</div>
+          </div>
+      </div>
+        <div class="xl6 xs6 xm4 xb3">
+          <div class="proitem"
+               style="width: 462px;height: 447px;background: #F0F4F7;">
+            <img class="hwzzswxl_img" src="./hwimages/图层 55.png" alt="Wheel Sand Washer" class="fadein">
+            <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Wheel Sand Washer</div>
+          </div>
+        </div>
+        <div class="xl6 xs6 xm4 xb3">
+          <div class="proitem" style="width: 462px;
+        height: 447px;
+        background: #F0F4F7;">
+            <img class="hwzzswxl_img" src="./hwimages/图层 56.png" alt="Fine Sand Recovery Device" class="fadein">
+            <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Fine Sand Recovery Device</div>
+          </div>
+        </div>
+      </div>
+      <div style="width: 1920px;height: 550px">
+      <div class="xl6 xs6 xm4 xb3">
+        <div class="proitem" style="
+        float: initial;
+        width: 462px;
+        height: 447px;
+        background: #F0F4F7;">
+          <img class="hwzzswxl_img" src="./hwimages/图层 57.png" alt="Vibrating Feeder" class="fadein">
+          <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Vibrating Feeder</div>
+        </div>
+      </div>
+      <div class="xl6 xs6 xm4 xb3">
+        <div class="proitem" style="width: 462px;
+        height: 447px;
+        background: #F0F4F7;">
+          <img class="hwzzswxl_img" src="./hwimages/图层 58.png" alt="Circular Vibrating Screen" class="fadein">
+          <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Circular Vibrating Screen</div>
+        </div>
+      </div>
+      <div class="xl6 xs6 xm4 xb3">
+        <div class="proitem" style="width: 462px;
+        height: 447px;
+        background: #F0F4F7;">
+          <img class="hwzzswxl_img" src="./hwimages/图层 59.png" alt="Jaw Crusher" class="fadein">
+          <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Jaw Crusher</div>
+        </div>
+      </div>
+      </div>
+      <div style="width: 1920px;height: 550px">
+        <div class="xl6 xs6 xm4 xb3">
+          <div class="proitem" style="
+          float: initial;
+          width: 462px;
+          height: 447px;
+          background: #F0F4F7;">
+            <img class="hwzzswxl_img" src="./hwimages/图层 60.png" alt="Multi-cylinder Hydraulic Cone Crusher" class="fadein">
+            <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Multi-cylinder Hydraulic Cone Crusher</div>
+          </div>
+        </div>
+        <div class="xl6 xs6 xm4 xb3">
+          <div class="proitem" style="width: 462px;
+          height: 447px;
+          background: #F0F4F7;">
+            <img class="hwzzswxl_img" src="./hwimages/图层 61.png" alt="Impact Crusher" class="fadein">
+            <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Impact Crusher</div>
+          </div>
+        </div>
+        <div class="xl6 xs6 xm4 xb3">
+          <div class="proitem" style="width: 462px;
+          height: 447px;
+          background: #F0F4F7;">
+            <img class="hwzzswxl_img" src="./hwimages/图层 62.png" alt="Mobile Jaw Crushing Station" class="fadein">
+            <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Mobile Jaw Crushing Station</div>
+          </div>
+        </div>
+      </div>
+      <div style="width: 1920px;height: 550px">
+        <div class="xl6 xs6 xm4 xb3">
+          <div class="proitem" style="
+          float: initial;
+          width: 462px;
+          height: 447px;
+          background: #F0F4F7;">
+            <img class="hwzzswxl_img" src="./hwimages/图层 63.png" alt="Mobile Cone Crushing Station" class="fadein">
+            <div style="position: relative; top: 43px; width: 100%; text-align: center; height: 24px; font-size: 18px; font-family: Lantinghei SC; font-weight: 600; color: #20242F; line-height: 24px;">Mobile Cone Crushing Station</div>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div style="position: relative;top: 61px;width: 1920px;height: 799px;background-image: url(./hwimages/bg2.png);">
+    <div style="position: relative;top: 155px;left: 257px; width: 500px; ;height: 400px;display: flex;flex-direction: column;">
+    <span style="width: 100%;
+    height: 34px;
+    font-size: 36px;
+    font-family: Lantinghei SC;
+    font-weight: 800;
+    color: #FFFFFF;
+    line-height: 49px;">We Are Here Waiting for You</span>
+    <div style="position: relative;top: 41px; width: 58px;
+    height: 6px;
+    background: #FFFFFF;"></div>
+    <span style="
+    position: relative;
+    top: 62px;
+    width: 500px;
+    height: 72px;
+    font-size: 18px;
+    font-family: Lantinghei SC;
+    font-weight: 200;
+    color: #FFFFFF;
+    line-height: 32px;">No. 969, Bohai 5th Road, 16th Yellow River Road, Bincheng District, Binzhou City, Shandong Province, Bohai High-level Talent Entrepreneurship Park</span>
+    <span style="position: relative;top: 106px;width: 276px; height: 32px; font-size: 18px; font-family: Lantinghei SC; font-weight: 200; color: #FFFFFF; line-height: 32px;">Phone: 15550616868</br>Website: www.hwic.com.cn</span>
+    </div>
+    <div style="position: absolute;top: 155px;left: 855px; width: 813px;height: 475px;background-color: #ED6601;">
+    <img src="./hwimages/1692346392507.png" alt="">
+    </div>
+    </div>
+      <div class="clearfix"></div>
+  </div>
+  <div>
+</div>
+
+<style>
+  .copyrights {
+    text-indent: -9999px;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+  }
+  .hwzzswxl_img{
+    width: 462px;
+    height: 349px;
+  }
+  .hwzzswxl_div{
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: solid 1px dashed
+  }
+</style>
+<div class="copyrights">
+  Collect from <a href="http://www.cssmoban.com/" title="网站模板">模板之家</a>
+  <a href="http://cooco.net.cn/" title="组卷网">组卷网</a>
+</div>
+
+</body>
+
+</html>
