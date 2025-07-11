@@ -17,9 +17,9 @@ export default function HomePage() {
   }
 
   const openWhatsApp = () => {
-    const phoneNumber = "00852-64711065"
+    const phoneNumber = "00862154385286"
     const message =
-      "Hello! I'm interested in HWZ Industrial Technology products and would like to learn more about your solutions."
+      "Hello! I'm interested in our Mining Screen Mesh products and would like to learn more about your solutions."
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
@@ -32,7 +32,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center space-x-4">
               <Image
-                src="/images/hwic-logo.png"
+                src="/images/logo.jpg"
                 alt="HWZ Industrial Technology Logo"
                 width={200}
                 height={60}
@@ -80,9 +80,8 @@ export default function HomePage() {
         </div>
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            HWZ Industrial
-            <span className="block text-cyan-400">Mesh Screen</span>
-            <span className="block text-cyan-400">Technology</span>
+            Mining Mesh
+            <span className="block text-cyan-400">Expert</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light text-slate-200">
             Leading Technology, Quality First for Australia
@@ -501,19 +500,18 @@ export default function HomePage() {
                 <div className="flex items-start space-x-4">
                   <MapPin className="h-6 w-6 text-cyan-400 flex-shrink-0 mt-1" />
                   <p className="text-lg text-slate-200">
-                    No. 969, Bohai 5th Road, 16th Yellow River Road, Bincheng District, Binzhou City, Shandong Province,
-                    Bohai High-level Talent Entrepreneurship Park
+                    Minhang, Shanghai
                   </p>
                 </div>
 
                 <div className="flex items-center space-x-4">
                   <Phone className="h-6 w-6 text-cyan-400" />
-                  <span className="text-lg text-slate-200">Phone: 15550616868</span>
+                  <span className="text-lg text-slate-200">Phone: 0086-21-54385286</span>
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <Globe className="h-6 w-6 text-cyan-400" />
-                  <span className="text-lg text-slate-200">Website: www.hwic.com.cn</span>
+                  <Mail className="h-6 w-6 text-cyan-400" />
+                  <span className="text-lg text-slate-200">Email: contact@biditech.cn</span>
                 </div>
               </div>
             </div>
@@ -624,14 +622,14 @@ export default function HomePage() {
           <div className="text-center">
             <div className="mb-6">
               <Image
-                src="/images/hwic-logo.png"
-                alt="HWIC - HWZ Industrial Technology"
+                src="/images/logo.jpg"
+                alt="Biditech - Mining Screen Mesh Expert"
                 width={200}
                 height={80}
                 className="h-16 w-auto mx-auto"
               />
             </div>
-            <p className="text-gray-400">© 2020-2024 HWZ Industrial Technology. All rights reserved.</p>
+            <p className="text-gray-400">© 2022-2025 Biditech. All rights reserved.</p>
           </div>
         </div>
       </footer>
