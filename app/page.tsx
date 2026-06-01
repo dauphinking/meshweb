@@ -1,9 +1,11 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { Phone, MapPin, CheckCircle, Zap, Shield, Award, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import { blogPosts } from "@/lib/blog"
 
 const faqItems = [
   {
@@ -117,6 +119,9 @@ export default function HomePage() {
                 <a href="#contact" className="text-slate-700 hover:text-cyan-600 font-medium transition-colors">
                   Contact
                 </a>
+                <Link href="/blog" className="text-slate-700 hover:text-cyan-600 font-medium transition-colors">
+                  Blog
+                </Link>
               </nav>
               <div className="flex items-center space-x-2 text-right">
                 <Mail className="h-5 w-5 text-cyan-500" />
@@ -724,6 +729,45 @@ export default function HomePage() {
                 <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Blog Preview Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Technical Resources</h2>
+            <div className="flex justify-center items-center space-x-2 mb-8">
+              <div className="w-8 h-1 bg-slate-800"></div>
+              <div className="w-8 h-1 bg-cyan-500"></div>
+            </div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Practical guides on mining screen mesh maintenance, clogging prevention and screen media selection
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+            {blogPosts.slice(0, 3).map((post) => (
+              <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
+                <div className="bg-white border border-gray-200 rounded-lg p-6 h-full hover:border-cyan-300 hover:shadow-md transition-all duration-300">
+                  <p className="text-xs text-gray-400 mb-3">
+                    {new Date(post.date).toLocaleDateString("en-AU", { year: "numeric", month: "long", day: "numeric" })} · {post.readTime}
+                  </p>
+                  <h3 className="text-lg font-semibold text-gray-900 group-hover:text-cyan-600 mb-3 transition-colors leading-snug">
+                    {post.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 line-clamp-3">{post.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center">
+            <Link
+              href="/blog"
+              className="inline-flex items-center border-2 border-slate-800 text-slate-800 hover:bg-slate-800 hover:text-white font-semibold px-8 py-3 rounded-lg transition-all duration-200"
+            >
+              View All Articles →
+            </Link>
           </div>
         </div>
       </section>
