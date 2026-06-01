@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.biditech.cn'),
+  metadataBase: new URL('https://www.screenmesh.org'),
   title: {
     default: 'Mining Screen Mesh Manufacturer | HWZ Industrial Technology',
     template: '%s | HWZ Mining Screen Mesh',
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://www.biditech.cn',
+    canonical: 'https://www.screenmesh.org',
   },
 }
 
@@ -83,8 +83,8 @@ const organizationSchema = {
   '@type': 'Organization',
   name: 'HWZ Industrial Technology',
   alternateName: ['HWZ Mining Screen Mesh', 'Biditech'],
-  url: 'https://www.biditech.cn',
-  logo: 'https://www.biditech.cn/images/logo.jpg',
+  url: 'https://www.screenmesh.org',
+  logo: 'https://www.screenmesh.org/images/logo.jpg',
   description:
     'Leading manufacturer of mining screen mesh, vibrating screen panels and screening media for coal mining, non-ferrous metal mining, hard rock mining and aggregate processing.',
   address: {
