@@ -7,6 +7,7 @@ import { getDictionary } from "@/lib/get-dictionary"
 import { HeroCTAButton } from "@/components/hero-cta-button"
 import { FloatingWhatsAppButton } from "@/components/whatsapp-button"
 import { LanguageSwitcher } from "@/components/language-switcher"
+import { InquiryModal } from "@/components/inquiry-modal"
 import { blogPosts } from "@/lib/blog"
 
 const locales = ["en", "fr", "es", "ru", "ar"]
@@ -689,6 +690,7 @@ export default async function HomePage({
       </section>
 
       <FloatingWhatsAppButton ariaLabel="Contact HWZ Mining Screen Mesh on WhatsApp" />
+      <InquiryModal dict={dict.inquiry} lang={lang} />
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">

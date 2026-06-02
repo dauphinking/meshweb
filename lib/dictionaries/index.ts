@@ -108,6 +108,20 @@ export interface Dictionary {
     ctaProducts: string
     relatedTitle: string
   }
+  inquiry: {
+    buttonLabel: string
+    title: string
+    subtitle: string
+    namePlaceholder: string
+    companyPlaceholder: string
+    contactPlaceholder: string
+    productLabel: string
+    products: string[]
+    messagePlaceholder: string
+    submitEmail: string
+    submitWhatsApp: string
+    close: string
+  }
 }
 
 export const en: Dictionary = {
@@ -333,6 +347,20 @@ export const en: Dictionary = {
     ctaQuote: "Request a Quote",
     ctaProducts: "View Products",
     relatedTitle: "Related Articles",
+  },
+  inquiry: {
+    buttonLabel: "Get a Quote",
+    title: "Quick Inquiry",
+    subtitle: "Tell us your requirements and we'll respond promptly",
+    namePlaceholder: "Your Name *",
+    companyPlaceholder: "Company (optional)",
+    contactPlaceholder: "Email or WhatsApp *",
+    productLabel: "Product of Interest",
+    products: ["Mining Screen Mesh", "Anti-Clogging Screen", "Dewatering Screen", "Welded Wire Screen", "Woven Wire Screen", "Perforated Plate Screen", "Jaw Crusher", "Cone Crusher", "Sand Washing Machine", "Mobile Crushing Station", "Sand Production Line", "Other"],
+    messagePlaceholder: "Describe your requirements (material type, aperture size, throughput, etc.)",
+    submitEmail: "Send by Email",
+    submitWhatsApp: "Send via WhatsApp",
+    close: "Close",
   },
 }
 
@@ -560,6 +588,20 @@ export const fr: Dictionary = {
     ctaProducts: "Voir les Produits",
     relatedTitle: "Articles Connexes",
   },
+  inquiry: {
+    buttonLabel: "Demander un Devis",
+    title: "Demande Rapide",
+    subtitle: "Décrivez vos besoins et nous vous répondrons rapidement",
+    namePlaceholder: "Votre Nom *",
+    companyPlaceholder: "Entreprise (facultatif)",
+    contactPlaceholder: "Email ou WhatsApp *",
+    productLabel: "Produit concerné",
+    products: ["Toile de Criblage", "Crible Anti-Colmatage", "Crible de Déshydratation", "Crible Soudé", "Toile Tissée", "Plaque Perforée", "Concasseur à Mâchoires", "Concasseur à Cône", "Machine à Laver le Sable", "Station de Concassage Mobile", "Ligne de Production de Sable", "Autre"],
+    messagePlaceholder: "Décrivez vos besoins (type de matériau, taille de maille, débit, etc.)",
+    submitEmail: "Envoyer par Email",
+    submitWhatsApp: "Envoyer via WhatsApp",
+    close: "Fermer",
+  },
 }
 
 export const es: Dictionary = {
@@ -785,6 +827,20 @@ export const es: Dictionary = {
     ctaQuote: "Solicitar Cotización",
     ctaProducts: "Ver Productos",
     relatedTitle: "Artículos Relacionados",
+  },
+  inquiry: {
+    buttonLabel: "Solicitar Cotización",
+    title: "Consulta Rápida",
+    subtitle: "Cuéntenos sus necesidades y le responderemos rápidamente",
+    namePlaceholder: "Su Nombre *",
+    companyPlaceholder: "Empresa (opcional)",
+    contactPlaceholder: "Email o WhatsApp *",
+    productLabel: "Producto de Interés",
+    products: ["Malla de Cribado", "Malla Anti-Obstrucción", "Malla Deshidratadora", "Malla Soldada", "Malla Tejida", "Placa Perforada", "Trituradora de Mandíbulas", "Trituradora de Cono", "Lavadora de Arena", "Planta Móvil de Trituración", "Línea de Producción de Arena", "Otro"],
+    messagePlaceholder: "Describa sus necesidades (tipo de material, tamaño de apertura, caudal, etc.)",
+    submitEmail: "Enviar por Email",
+    submitWhatsApp: "Enviar por WhatsApp",
+    close: "Cerrar",
   },
 }
 
@@ -1012,6 +1068,20 @@ export const ru: Dictionary = {
     ctaProducts: "Просмотреть Продукцию",
     relatedTitle: "Похожие Статьи",
   },
+  inquiry: {
+    buttonLabel: "Запрос Цены",
+    title: "Быстрый Запрос",
+    subtitle: "Опишите ваши требования — мы свяжемся с вами в ближайшее время",
+    namePlaceholder: "Ваше Имя *",
+    companyPlaceholder: "Компания (необязательно)",
+    contactPlaceholder: "Email или WhatsApp *",
+    productLabel: "Интересующий продукт",
+    products: ["Горнодобывающая Сетка", "Антизасорная Сетка", "Сетка для Обезвоживания", "Сварная Сетка", "Тканая Сетка", "Перфорированная Плита", "Щековая Дробилка", "Конусная Дробилка", "Пескомоечная Машина", "Мобильная Дробильная Станция", "Линия по Производству Песка", "Другое"],
+    messagePlaceholder: "Опишите ваши требования (тип материала, размер ячейки, производительность и т.д.)",
+    submitEmail: "Отправить по Email",
+    submitWhatsApp: "Отправить через WhatsApp",
+    close: "Закрыть",
+  },
 }
 
 export const ar: Dictionary = {
@@ -1237,5 +1307,19 @@ export const ar: Dictionary = {
     ctaQuote: "طلب عرض سعر",
     ctaProducts: "عرض المنتجات",
     relatedTitle: "مقالات ذات صلة",
+  },
+  inquiry: {
+    buttonLabel: "طلب سعر",
+    title: "استفسار سريع",
+    subtitle: "صف متطلباتك وسنتواصل معك في أقرب وقت",
+    namePlaceholder: "اسمك *",
+    companyPlaceholder: "الشركة (اختياري)",
+    contactPlaceholder: "البريد الإلكتروني أو واتساب *",
+    productLabel: "المنتج المطلوب",
+    products: ["شبكة غربلة تعدينية", "شبكة مضادة للانسداد", "شبكة تجفيف", "شبكة ملحومة", "شبكة منسوجة", "لوح مثقوب", "كسارة فكية", "كسارة مخروطية", "غسالة رمل", "محطة تكسير متنقلة", "خط إنتاج الرمل", "أخرى"],
+    messagePlaceholder: "صف متطلباتك (نوع المادة، حجم الفتحة، الطاقة الإنتاجية، إلخ)",
+    submitEmail: "إرسال عبر البريد الإلكتروني",
+    submitWhatsApp: "إرسال عبر واتساب",
+    close: "إغلاق",
   },
 }
