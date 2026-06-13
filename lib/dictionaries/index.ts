@@ -617,14 +617,14 @@ export const es: Dictionary = {
   hero: {
     title: "Malla de Cribado Minero",
     subtitle: "Experto",
-    desc1: "Paneles de Cribas Vibratorias para Minería de Carbón, Metales No Ferrosos y Roca Dura",
-    desc2: "Medios de cribado soldados robóticamente — fabricados a medida para Australia, Sudeste Asiático y África",
+    desc1: "Paneles de Cribas Vibratorias para Minería de Cobre, Oro, Carbón y Roca Dura en Perú, Chile y el Mundo",
+    desc2: "Medios de cribado soldados robóticamente — fabricados a medida para Perú, Chile, Australia y Sudeste Asiático",
     cta: "Solicitar Cotización",
   },
   about: {
     title: "Acerca de Nosotros",
-    p1: "HWZ Industrial Technology es un fabricante líder de malla de cribado minero, paneles de cribas vibratorias y medios de cribado industrial, sirviendo con orgullo a los sectores minero y de construcción australianos. Con más de 5,000 metros cuadrados de espacio de producción dedicado y equipos de soldadura robótica de última generación, producimos cribas para minería de carbón, minería de metales no ferrosos (cobre, oro, plata, zinc, mineral de hierro), minería de roca dura y procesamiento de áridos.",
-    p2: "Nos especializamos en cribas soldadas, cribas tejidas, cribas de polipropileno y una amplia gama de maquinaria de procesamiento mineral. Nuestro equipo de exportación dedicado ha establecido alianzas a largo plazo con clientes en Australia, Sudeste Asiático y África, suministrando paneles de cribas vibratorias fabricados a medida que prolongan la vida útil de los equipos y reducen el costo operativo total.",
+    p1: "HWZ Industrial Technology es un fabricante líder de malla de cribado minero, paneles de cribas vibratorias y medios de cribado industrial, con amplia presencia en los principales mercados mineros de América del Sur. Con más de 5,000 metros cuadrados de espacio de producción dedicado y equipos de soldadura robótica de última generación, producimos cribas para minería de cobre y oro en Perú y Chile, minería de carbón, metales no ferrosos (plata, zinc, mineral de hierro) y minería de roca dura. Atendemos minas de gran escala como Antamina, Cerro Verde y Las Bambas en Perú, así como los yacimientos cupríferos del norte de Chile como Escondida y Collahuasi.",
+    p2: "Nos especializamos en cribas soldadas, cribas tejidas, cribas de polipropileno y una amplia gama de maquinaria de procesamiento mineral. Nuestro equipo de exportación dedicado ha establecido alianzas a largo plazo con clientes en Perú, Chile, Australia y Sudeste Asiático, suministrando paneles de cribas vibratorias fabricados a medida que prolongan la vida útil de los equipos y reducen el costo operativo total. Ofrecemos documentación técnica en español y atención comercial directa para el mercado latinoamericano.",
     stat1: { value: "5000+", label: "m² Área de Producción" },
     stat2: { value: "16+", label: "Productos de Cribado" },
     stat3: { value: "10+", label: "Años de Exportación" },
@@ -639,9 +639,9 @@ export const es: Dictionary = {
         applications: ["Cribado de carbón en bruto", "Deshidratación de finos de carbón", "Clasificación de carbón térmico", "Preparación de carbón coquizable"],
       },
       {
-        title: "Minería de Metales No Ferrosos",
-        description: "Medios de cribado de precisión para procesamiento de cobre, oro, plata, zinc y mineral de hierro. Las cribas anti-atascamiento maximizan las tasas de recuperación en condiciones de mineral húmedo y pegajoso.",
-        applications: ["Cribado de mineral de cobre", "Clasificación de minas de oro", "Procesamiento de mineral de hierro", "Clasificación de zinc y plomo"],
+        title: "Minería de Cobre y Oro — Perú y Chile",
+        description: "Medios de cribado de precisión para procesamiento de cobre, oro, plata, zinc y mineral de hierro. Las cribas anti-atascamiento maximizan las tasas de recuperación en condiciones de mineral húmedo y pegajoso, ideales para los grandes yacimientos porfíricos de cobre en los Andes peruanos y chilenos.",
+        applications: ["Cribado de mineral de cobre — Antamina, Cerro Verde, Escondida", "Clasificación en minas de oro peruanas", "Procesamiento de mineral de hierro", "Clasificación de zinc y plata en Perú"],
       },
       {
         title: "Minería de Roca Dura",
@@ -767,6 +767,10 @@ export const es: Dictionary = {
         answer: "Aceptamos pedidos pequeños de muestras para evaluación. El tiempo de producción para pedidos estándar es típicamente de 7 a 15 días hábiles. Los pedidos a granel se cotizan individualmente según especificaciones y cantidad.",
       },
       {
+        question: "¿Suministran malla de cribado minero a Perú y Chile?",
+        answer: "Sí. Perú y Chile son mercados prioritarios para HWZ. Suministramos paneles de cribas vibratorias para operaciones de minería de cobre, oro y plata en los Andes. Nuestra malla anti-atascamiento es especialmente valorada en yacimientos porfíricos de cobre con mineral húmedo. Contamos con experiencia en exportación a ambos países, incluyendo certificación de origen, documentación en español y coordinación de flete hasta los puertos de Callao (Lima) y San Antonio (Santiago). Contáctenos para muestras y cotización en español.",
+      },
+      {
         question: "¿Suministran malla de cribado minero a Australia?",
         answer: "Sí. Australia es uno de nuestros principales mercados de exportación. Hemos establecido alianzas a largo plazo con operaciones mineras australianas en los sectores de carbón, oro, mineral de hierro y roca dura. Todos los productos están empacados y etiquetados según los requisitos de importación australianos.",
       },
@@ -792,7 +796,7 @@ export const es: Dictionary = {
   },
   getInTouch: {
     title: "Contáctenos",
-    subtitle: "Contáctenos para cotizaciones personalizadas de malla de cribado minero, especificaciones técnicas o muestras de productos",
+    subtitle: "Contáctenos para cotizaciones en español, especificaciones técnicas o muestras de malla de cribado para minería en Perú, Chile y toda Latinoamérica",
     scanTitle: "Escanear Código QR",
     scanDesc: "Acceso rápido via WhatsApp",
     whatsapp: {
@@ -808,7 +812,7 @@ export const es: Dictionary = {
   },
   footer: {
     tagline1: "Fabricante de Malla de Cribado Minero | Paneles de Cribas Vibratorias | Medios de Cribado",
-    tagline2: "Minería de Carbón · Metales No Ferrosos · Roca Dura · Procesamiento de Áridos",
+    tagline2: "Perú · Chile · Australia · Minería de Cobre · Oro · Carbón · Roca Dura",
     copyright: "© 2022–2025 Biditech. Todos los derechos reservados.",
   },
   blogPage: {
