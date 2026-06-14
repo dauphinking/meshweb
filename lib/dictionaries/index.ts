@@ -329,7 +329,7 @@ export const en: Dictionary = {
   footer: {
     tagline1: "Mining Screen Mesh Manufacturer | Vibrating Screen Panels | Screening Media",
     tagline2: "Coal Mining · Non-Ferrous Metal Mining · Hard Rock Mining · Aggregate Processing",
-    copyright: "© 2022–2025 Biditech. All rights reserved.",
+    copyright: "© 2022–2026 ScreenMesh @Biditech. All rights reserved.",
   },
   blogPage: {
     title: "Mining Screen Mesh Technical Blog",
@@ -569,7 +569,7 @@ export const fr: Dictionary = {
   footer: {
     tagline1: "Fabricant de Toiles de Criblage Minier | Panneaux de Cribles Vibrants | Milieux de Criblage",
     tagline2: "Exploitation du Charbon · Métaux Non Ferreux · Roches Dures · Traitement des Agrégats",
-    copyright: "© 2022–2025 Biditech. Tous droits réservés.",
+    copyright: "© 2022–2026 ScreenMesh @Biditech. Tous droits réservés.",
   },
   blogPage: {
     title: "Blog Technique sur les Toiles de Criblage Minier",
@@ -813,7 +813,7 @@ export const es: Dictionary = {
   footer: {
     tagline1: "Fabricante de Malla de Cribado Minero | Paneles de Cribas Vibratorias | Medios de Cribado",
     tagline2: "Perú · Chile · Australia · Minería de Cobre · Oro · Carbón · Roca Dura",
-    copyright: "© 2022–2025 Biditech. Todos los derechos reservados.",
+    copyright: "© 2022–2026 ScreenMesh @Biditech. Todos los derechos reservados.",
   },
   blogPage: {
     title: "Blog Técnico de Malla de Cribado Minero",
@@ -1053,7 +1053,7 @@ export const ru: Dictionary = {
   footer: {
     tagline1: "Производитель Горнодобывающей Сетки | Панели Вибрационных Грохотов | Просеивающие Поверхности",
     tagline2: "Угольная Добыча · Цветные Металлы · Твёрдые Породы · Переработка Щебня",
-    copyright: "© 2022–2025 Biditech. Все права защищены.",
+    copyright: "© 2022–2026 ScreenMesh @Biditech. Все права защищены.",
   },
   blogPage: {
     title: "Технический Блог по Горнодобывающей Сетке",
@@ -1293,7 +1293,7 @@ export const ar: Dictionary = {
   footer: {
     tagline1: "مصنّع شبكات الغربلة التعدينية | ألواح الغرابيل الاهتزازية | وسائط الغربلة",
     tagline2: "تعدين الفحم · المعادن غير الحديدية · الصخور الصلبة · معالجة الركام",
-    copyright: "© 2022–2025 Biditech. جميع الحقوق محفوظة.",
+    copyright: "© 2022–2026 ScreenMesh @Biditech. جميع الحقوق محفوظة.",
   },
   blogPage: {
     title: "مدونة تقنية لشبكات الغربلة التعدينية",
