@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
 
-const INDEX_NOW_KEY = "1f04aaf6e9f14880a4325507db38395d"
+const INDEX_NOW_KEY = "501ef864bb1443beb34e4f1f6eb565d1"
 const BASE_URL = "https://www.screenmesh.org"
 
 const URLS = [
