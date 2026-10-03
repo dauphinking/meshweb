@@ -4,11 +4,11 @@ import './globals.css'
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.screenmesh.org'),
   title: {
-    default: 'Mining Screen Mesh Manufacturer | HWZ Industrial Technology',
-    template: '%s | HWZ Mining Screen Mesh',
+    default: 'Mining Screening Media & Vibrating Screen Panels Supplier | HWZ Industrial Technology',
+    template: '%s | HWZ Mining Screening Media',
   },
   description:
-    'HWZ Industrial Technology manufactures premium mining screen mesh, vibrating screen panels and screening media for coal mining, non-ferrous metal mining, hard rock mining and aggregate processing. Robotic-welded, custom-made screens exported to Australia, Southeast Asia and Africa.',
+    'HWZ Industrial Technology supplies mining screening media, vibrating screen panels, polyurethane screen panels, dewatering screens and quarry screen mesh for coal mining, copper, gold and hard rock mining. Custom-manufactured wear parts exported to Australia, Southeast Asia, Africa, Peru and Chile.',
   robots: {
     index: true,
     follow: true,
@@ -30,7 +30,7 @@ const organizationSchema = {
   url: 'https://www.screenmesh.org',
   logo: 'https://www.screenmesh.org/images/logo.jpg',
   description:
-    'Leading manufacturer of mining screen mesh, vibrating screen panels and screening media for coal mining, non-ferrous metal mining, hard rock mining and aggregate processing.',
+    'Leading supplier of mining screening media, vibrating screen panels, polyurethane screen panels, dewatering screen panels and quarry screen mesh for coal mining, non-ferrous metal mining, hard rock mining and aggregate processing.',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Minhang',

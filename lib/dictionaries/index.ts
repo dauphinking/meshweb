@@ -135,16 +135,16 @@ export const en: Dictionary = {
     blog: "Blog",
   },
   hero: {
-    title: "Mining Screen Mesh",
-    subtitle: "Expert",
-    desc1: "Vibrating Screen Panels for Coal, Non-Ferrous & Hard Rock Mining",
-    desc2: "Robotic-welded screening media — custom manufactured for Australia, Southeast Asia & Africa",
+    title: "Mining Screening Media",
+    subtitle: "& Wear Parts Supplier",
+    desc1: "Vibrating Screen Panels · Polyurethane Screens · Dewatering Media for Coal, Copper, Gold & Hard Rock Mining",
+    desc2: "Custom-manufactured quarry screen mesh & aggregate screening media — exported to Australia, Southeast Asia, Africa, Peru & Chile",
     cta: "Request a Custom Quote",
   },
   about: {
     title: "About Us",
-    p1: "HWZ Industrial Technology is a leading manufacturer of mining screen mesh, vibrating screen panels and industrial screening media, proudly serving the Australian mining and construction sectors. With over 5,000 square metres of dedicated production space and state-of-the-art robotic welding equipment, we produce screens for coal mining, non-ferrous metal mining (copper, gold, silver, zinc, iron ore), hard rock mining and aggregate processing.",
-    p2: "We specialise in welded screens, woven screens, polypropylene screens and a wide range of mineral processing machinery. Our dedicated export team has established long-term partnerships with clients in Australia, Southeast Asia and Africa, supplying custom-made vibrating screen panels that extend equipment life and reduce total operating cost.",
+    p1: "HWZ Industrial Technology is a leading supplier of mining screening media and wear parts — vibrating screen panels, polyurethane screen panels, rubber screen panels, dewatering screen panels and quarry screen mesh — serving the coal mining, copper, gold and hard rock mining industries. With over 5,000 square metres of production space and robotic welding equipment, we manufacture aggregate screen media and mineral processing screens for clients in Australia, Southeast Asia, Africa, Peru and Chile.",
+    p2: "We specialise in welded wire screens, woven wire mesh, polyurethane screening media and a complete range of mineral processing machinery. Our export team has established long-term partnerships with mining operations across multiple continents, supplying custom-made screen panels that extend equipment life and reduce total cost of ownership per tonne screened.",
     stat1: { value: "5000+", label: "m² Production Area" },
     stat2: { value: "16+", label: "Screen Products" },
     stat3: { value: "10+", label: "Years Export" },
@@ -217,12 +217,14 @@ export const en: Dictionary = {
   },
   screenSeries: {
     title: "HWZ Screen Series",
-    subtitle: "Full range of vibrating screen panels and screening media — welded, woven and polyurethane — custom-made for coal mining, non-ferrous metal mining and hard rock mining applications",
+    subtitle: "Full range of mining screening media — welded wire, woven mesh, polyurethane & rubber screen panels — custom-made for coal, copper, gold and hard rock mining. Also supplying aggregate screen media, quarry screen mesh and dewatering screen panels",
     items: [
+      { name: "Polyurethane Screen Panels", desc: "High-abrasion polyurethane screening media for copper, gold and mineral processing — long service life, low noise" },
+      { name: "Dewatering Screen Panels", desc: "High-frequency dewatering panels for sand, coal fines and mineral tailings" },
       { name: "Anti-Clogging Screen", desc: "Self-cleaning screen mesh for wet, sticky ores — ideal for non-ferrous metal and coal mining" },
-      { name: "Dewatering Screen", desc: "High-frequency dewatering panels for sand, coal fines and mineral tailings" },
-      { name: "Welded Screen", desc: "Robotic-welded wire screen panels for heavy-duty hard rock and aggregate primary screening" },
+      { name: "Welded Wire Screen", desc: "Robotic-welded wire screen panels for heavy-duty hard rock, quarry and aggregate primary screening" },
       { name: "Woven Wire Screen", desc: "Fine-aperture woven wire mesh for precision mineral classification and sizing" },
+      { name: "Rubber Screen Panels", desc: "Impact-resistant rubber screening media for aggregate, quarry and hard rock scalping applications" },
       { name: "Perforated Plate Screen", desc: "Heavy-duty perforated plate for scalping and coarse coal sizing in high-impact applications" },
     ],
   },
@@ -263,7 +265,7 @@ export const en: Dictionary = {
   },
   blogSection: {
     title: "Technical Resources",
-    subtitle: "Practical guides on mining screen mesh maintenance, clogging prevention and screen media selection",
+    subtitle: "Practical guides on polyurethane screen panels, dewatering screen media, vibrating screen maintenance and aggregate screening media selection",
     viewAll: "View All Articles →",
   },
   faq: {
@@ -301,6 +303,14 @@ export const en: Dictionary = {
       {
         question: "What wire materials are available for mining screen mesh?",
         answer: "Standard panels use high-carbon steel wire. We also supply manganese steel, stainless steel 304/316 and polyurethane/polypropylene composite panels depending on the abrasion, corrosion and temperature requirements of your specific application.",
+      },
+      {
+        question: "What are the advantages of polyurethane screen panels over steel mesh?",
+        answer: "Polyurethane screen panels offer 3–5× longer service life than steel wire mesh in abrasive applications, significantly lower noise levels, reduced blinding in wet screening, and lighter weight for easier handling. They are ideal for copper ore, gold ore and aggregate processing where moisture and fine particles cause steel mesh to blind quickly.",
+      },
+      {
+        question: "Do you supply dewatering screen panels for sand and coal operations?",
+        answer: "Yes. Our dewatering screen panels are designed for high-frequency fine sand recovery, coal fines dewatering and mineral tailings dewatering. They feature narrow-slot apertures (typically 0.25–1.0 mm) to achieve high moisture removal efficiency while retaining fine particles.",
       },
     ],
   },
