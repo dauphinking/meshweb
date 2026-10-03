@@ -1,0 +1,14 @@
+name: IndexNow submit
+
+on:
+  deployment_status:
+
+jobs:
+  submit:
+    if: github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit URLs to IndexNow
+        run: |
+          sleep 30
+          curl -fsS -X POST https://www.screenmesh.org/api/indexnow
