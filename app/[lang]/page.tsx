@@ -8,7 +8,7 @@ import { HeroCTAButton } from "@/components/hero-cta-button"
 import { FloatingWhatsAppButton } from "@/components/whatsapp-button"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { InquiryModal } from "@/components/inquiry-modal"
-import { blogPosts } from "@/lib/blog"
+import { blogPosts, localizePost } from "@/lib/blog"
 
 const locales = ["en", "fr", "es", "ru", "ar"]
 const baseUrl = "https://www.screenmesh.org"
@@ -556,7 +556,7 @@ export default async function HomePage({
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
-            {blogPosts.slice(0, 3).map((post) => (
+            {blogPosts.slice(0, 3).map((p) => localizePost(p, lang)).map((post) => (
               <Link key={post.slug} href={`/${lang}/blog/${post.slug}`} className="group">
                 <div className="bg-white border border-gray-200 rounded-lg p-6 h-full hover:border-cyan-300 hover:shadow-md transition-all duration-300">
                   <p className="text-xs text-gray-400 mb-3">

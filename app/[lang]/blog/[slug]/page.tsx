@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { blogPosts, getBlogPost } from "@/lib/blog"
+import { blogPosts, getBlogPost, localizePost } from "@/lib/blog"
 import { getDictionary } from "@/lib/get-dictionary"
 
 const locales = ["en", "fr", "es", "ru", "ar"]
@@ -22,8 +22,9 @@ export async function generateMetadata({
   params: Promise<{ lang: string; slug: string }>
 }): Promise<Metadata> {
   const { lang, slug } = await params
-  const post = getBlogPost(slug)
-  if (!post) return {}
+  const base = getBlogPost(slug)
+  if (!base) return {}
+  const post = localizePost(base, lang)
 
   return {
     title: `${post.title} | HWZ Mining Screen Mesh`,
@@ -50,8 +51,9 @@ export default async function BlogPostPage({
   params: Promise<{ lang: string; slug: string }>
 }) {
   const { lang, slug } = await params
-  const post = getBlogPost(slug)
-  if (!post) notFound()
+  const base = getBlogPost(slug)
+  if (!base) notFound()
+  const post = localizePost(base, lang)
 
   const dict = await getDictionary(lang)
 
@@ -80,7 +82,7 @@ export default async function BlogPostPage({
     },
   }
 
-  const otherPosts = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3)
+  const otherPosts = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3).map((p) => localizePost(p, lang))
 
   return (
     <div className="min-h-screen bg-white">

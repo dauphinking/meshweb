@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { blogPosts } from "@/lib/blog"
+import { blogPosts, localizePost } from "@/lib/blog"
 import { getDictionary } from "@/lib/get-dictionary"
 
 const locales = ["en", "fr", "es", "ru", "ar"]
@@ -35,7 +35,7 @@ export default async function BlogPage({
   const { lang } = await params
   const dict = await getDictionary(lang)
 
-  const sorted = [...blogPosts].sort(
+  const sorted = blogPosts.map((p) => localizePost(p, lang)).sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   )
 

@@ -1,11 +1,22 @@
-export interface BlogPost {
-  slug: string
+import { dewateringTranslations } from "./blog-dewatering-translations"
+
+export interface BlogPostText {
   title: string
-  date: string
   readTime: string
   description: string
   keywords: string[]
   content: string
+}
+
+export interface BlogPost extends BlogPostText {
+  slug: string
+  date: string
+  translations?: Partial<Record<string, BlogPostText>>
+}
+
+export function localizePost(post: BlogPost, lang: string): BlogPost {
+  const t = post.translations?.[lang]
+  return t ? { ...post, ...t } : post
 }
 
 export const blogPosts: BlogPost[] = [
@@ -14,6 +25,7 @@ export const blogPosts: BlogPost[] = [
     title: "Dewatering Screen Panels: A Selection Guide for Sand, Coal Fines and Tailings",
     date: "2026-10-20",
     readTime: "7 min read",
+    translations: dewateringTranslations,
     description:
       "How to choose dewatering screen panels: polyurethane vs wedge wire vs rubber, slot width, panel layout and the operating problems that point to the wrong panel. A practical guide for sand plants, coal preparation and tailings operations.",
     keywords: [
