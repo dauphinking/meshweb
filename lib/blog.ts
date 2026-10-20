@@ -10,6 +10,111 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "dewatering-screen-panels-selection-guide",
+    title: "Dewatering Screen Panels: A Selection Guide for Sand, Coal Fines and Tailings",
+    date: "2026-10-20",
+    readTime: "7 min read",
+    description:
+      "How to choose dewatering screen panels: polyurethane vs wedge wire vs rubber, slot width, panel layout and the operating problems that point to the wrong panel. A practical guide for sand plants, coal preparation and tailings operations.",
+    keywords: [
+      "dewatering screen panels",
+      "dewatering screen media",
+      "polyurethane dewatering panels",
+      "sand dewatering screen",
+      "coal fines dewatering",
+    ],
+    content: `
+<p>A dewatering screen has one job: take a wet slurry of sand, coal fines or tailings and discharge a stackable product with as little water — and as little lost fine material — as possible. The screen panels decide most of that result. The wrong panel either lets valuable fines escape with the water or blinds and floods the deck. This guide explains how to choose dewatering screen panels for your application.</p>
+
+<h2>How a Dewatering Screen Works</h2>
+<p>Most dewatering screens are high-frequency linear-motion screens with a deck that slopes slightly upward toward the discharge end. Slurry is fed onto the deck, and the vibration and the uphill slope build up a bed of material. That bed acts as a filter: water drains down through it and out through the panel slots, while the solids are conveyed up and over a discharge weir as a drained cake.</p>
+<p>Because the bed of material does most of the filtering, the panel's job is to drain water quickly, hold back the solids above the cut size, and resist the constant abrasion of wet, sharp particles. Those three demands — drainage, retention and wear life — drive every selection decision below.</p>
+
+<h2>Common Applications</h2>
+<ul>
+  <li><strong>Manufactured and natural sand plants</strong> — dewatering washed sand after cyclones or a sand washer, often combined with a fine sand recovery unit</li>
+  <li><strong>Coal preparation</strong> — dewatering coal fines and middlings before stockpiling or centrifuges</li>
+  <li><strong>Mineral processing and tailings</strong> — recovering water from tailings and producing a stackable product for dry stacking</li>
+  <li><strong>Aggregate washing</strong> — removing water from washed fine aggregate so it can be stockpiled and shipped</li>
+</ul>
+
+<h2>Panel Materials Compared</h2>
+<table style="width:100%;border-collapse:collapse;margin:16px 0">
+  <thead>
+    <tr style="background:#f1f5f9">
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Panel type</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Strengths</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Limitations</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Best fit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Polyurethane slotted panels</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Long wear life in abrasive slurry, tapered slots resist blinding, modular and quick to replace, low noise</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Lower open area than wedge wire at the same slot width</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Sand, aggregate and abrasive mineral slurries — the most common choice</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Wedge wire (profile wire) panels</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">High open area and fast drainage, precise slot widths, stainless steel options</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Wears faster in highly abrasive feeds; damaged sections are harder to replace locally</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Coal fines and low-abrasion feeds where drainage capacity matters most</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Rubber panels</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Good impact absorption</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Less suited to fine slots; lower abrasion resistance than polyurethane in fine wet screening</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Feed-box and impact zones rather than the main dewatering area</td>
+    </tr>
+  </tbody>
+</table>
+<p>For a deeper look at why polyurethane performs well in wet, abrasive service, see our article on <a href="polyurethane-screen-panel-properties">polyurethane screen panel properties</a>.</p>
+
+<h2>Choosing the Slot Width</h2>
+<p>Slot width is the most important specification. Dewatering panels typically use slots in the range of <strong>0.25–1.0 mm</strong>, chosen from the particle size distribution of the feed:</p>
+<ul>
+  <li><strong>Too wide</strong> — fine product passes through the panels with the water, reducing yield and loading the water circuit with solids</li>
+  <li><strong>Too narrow</strong> — drainage slows, the bed stays wet, and near-size particles wedge into the slots and blind the deck</li>
+</ul>
+<p>Because the bed of material retains particles finer than the slot itself, the slot can often be somewhat wider than the finest particle you need to keep. The right value depends on your feed grading and on the fines content you can tolerate in the underflow, so it is best decided from a sieve analysis of the actual feed.</p>
+<p>Slot orientation relative to the direction of material flow also affects the balance between drainage and fines retention. Tell your supplier which matters more in your plant — drier product or less fines loss — so the panels can be set up accordingly.</p>
+
+<h2>Panel Layout on the Deck</h2>
+<p>A dewatering deck is rarely one panel type from end to end. A typical layout uses:</p>
+<ul>
+  <li><strong>Feed zone:</strong> blank or heavier-duty panels where the slurry lands, to take the impact and spread the flow</li>
+  <li><strong>Dewatering zone:</strong> slotted panels across most of the deck, where the bed forms and drains</li>
+  <li><strong>Discharge end:</strong> a weir or dam that holds the bed at the right depth before the product spills over</li>
+</ul>
+<p>Wear is usually heaviest in the feed zone. With modular panels, those panels can be replaced on their own instead of changing the whole deck.</p>
+
+<h2>Problems That Point to the Wrong Panel</h2>
+<h3>Fine material in the underflow water</h3>
+<p>Check whether the slots have worn wider than their original size. If the panels are new, the slot width may be too wide for the feed, or the bed may be too thin to filter effectively.</p>
+
+<h3>Product discharging too wet</h3>
+<p>Often a sign of blinded panels, too little open area, or a feed that is too dilute to build a proper bed. Inspect the panels for plugged slots before changing operating settings.</p>
+
+<h3>Rapid blinding</h3>
+<p>Near-size particles wedging in straight-walled slots are a common cause. Tapered slots, which widen toward the underside, let particles that enter a slot pass through instead of locking in place. Our guide to <a href="how-to-prevent-screen-hole-clogging">preventing screen hole clogging</a> covers further measures.</p>
+
+<h3>Short panel life in the feed zone</h3>
+<p>The feed zone may need a thicker or more impact-resistant panel, or a change to how the slurry is delivered onto the deck.</p>
+
+<h2>What to Send Us for a Quote</h2>
+<p>To specify dewatering screen panels that fit your screen and your feed, send us:</p>
+<ul>
+  <li>Screen make and model, deck dimensions and the panel fixing system (modular pin-and-sleeve, bolted, or tensioned)</li>
+  <li>Material type and a particle size distribution of the feed</li>
+  <li>Required cut size and the fines loss you can accept</li>
+  <li>Feed solids concentration and throughput (t/h)</li>
+  <li>Current panel type, slot width and service life, if you are replacing existing panels</li>
+</ul>
+<p>We manufacture custom dewatering screen panels in polyurethane, wedge wire and rubber to fit any vibrating screen, with lead times of 7–15 working days. Contact our engineering team at contact@biditech.cn for a recommendation and quote.</p>
+    `.trim(),
+  },
+  {
     slug: "common-causes-of-screen-mesh-clogging",
     title: "Common Causes of Screen Mesh Clogging in Vibrating Screens",
     date: "2024-03-15",

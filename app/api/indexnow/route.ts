@@ -1,31 +1,17 @@
 import { NextResponse } from "next/server"
+import { blogPosts } from "@/lib/blog"
 
 const INDEX_NOW_KEY = "501ef864bb1443beb34e4f1f6eb565d1"
 const BASE_URL = "https://www.screenmesh.org"
+const LOCALES = ["en", "fr", "es", "ru", "ar"]
 
 const URLS = [
   "/",
-  "/en",
-  "/fr",
-  "/es",
-  "/ru",
-  "/ar",
-  "/en/blog",
-  "/fr/blog",
-  "/es/blog",
-  "/ru/blog",
-  "/ar/blog",
-  "/en/blog/common-causes-of-screen-mesh-clogging",
-  "/en/blog/polyurethane-screen-panel-properties",
-  "/en/blog/vibrating-screen-performance-and-screen-mesh",
-  "/en/blog/how-to-prevent-screen-hole-clogging",
-  "/en/blog/solving-polyurethane-screen-edge-leakage",
-  "/fr/blog/common-causes-of-screen-mesh-clogging",
-  "/fr/blog/polyurethane-screen-panel-properties",
-  "/es/blog/common-causes-of-screen-mesh-clogging",
-  "/es/blog/polyurethane-screen-panel-properties",
-  "/ru/blog/common-causes-of-screen-mesh-clogging",
-  "/ar/blog/common-causes-of-screen-mesh-clogging",
+  ...LOCALES.flatMap((lang) => [
+    `/${lang}`,
+    `/${lang}/blog`,
+    ...blogPosts.map((post) => `/${lang}/blog/${post.slug}`),
+  ]),
 ].map((path) => `${BASE_URL}${path}`)
 
 export async function POST() {
