@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { blogPosts, localizePost } from "@/lib/blog"
+import { formatPostDate } from "@/lib/format-date"
 import { getDictionary } from "@/lib/get-dictionary"
 
 const locales = ["en", "fr", "es", "ru", "ar"]
@@ -68,11 +69,7 @@ export default async function BlogPage({
             >
               <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
                 <time dateTime={post.date}>
-                  {new Date(post.date).toLocaleDateString("en-AU", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
+                  {formatPostDate(post.date, lang)}
                 </time>
                 <span>·</span>
                 <span>{post.readTime}</span>
@@ -111,7 +108,7 @@ export default async function BlogPage({
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-gray-400 text-sm">{dict.footer.copyright}</p>
           <p className="text-gray-500 text-xs mt-1">
-            Mining Screen Mesh Manufacturer · Shanghai, China · contact@biditech.cn
+            Mining Screening Media Supplier · Shanghai, China · contact@biditech.cn
           </p>
         </div>
       </footer>

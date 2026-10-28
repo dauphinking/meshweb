@@ -1,4 +1,8 @@
 export interface Dictionary {
+  meta: {
+    title: string
+    description: string
+  }
   nav: {
     about: string
     industries: string
@@ -125,6 +129,10 @@ export interface Dictionary {
 }
 
 export const en: Dictionary = {
+  meta: {
+    title: "Mining Screening Media & Vibrating Screen Panels | HWZ",
+    description: "Mining screening media supplier: vibrating screen, polyurethane and dewatering panels and wire mesh for coal, copper, gold and quarries. Custom-made.",
+  },
   nav: {
     about: "About",
     industries: "Industries",
@@ -337,7 +345,7 @@ export const en: Dictionary = {
     },
   },
   footer: {
-    tagline1: "Mining Screen Mesh Manufacturer | Vibrating Screen Panels | Screening Media",
+    tagline1: "Mining Screening Media & Wear Parts Supplier | Vibrating Screen Panels | Polyurethane Screens",
     tagline2: "Coal Mining · Non-Ferrous Metal Mining · Hard Rock Mining · Aggregate Processing",
     copyright: "© 2022–2026 ScreenMesh @Biditech. All rights reserved.",
   },
@@ -375,6 +383,10 @@ export const en: Dictionary = {
 }
 
 export const fr: Dictionary = {
+  meta: {
+    title: "Panneaux et Toiles de Criblage pour Mines | Polyuréthane | HWZ",
+    description: "Fournisseur de panneaux de criblage pour mines et carrières : polyuréthane, déshydratation, toiles métalliques. Fabrication sur mesure, export mondial.",
+  },
   nav: {
     about: "À propos",
     industries: "Industries",
@@ -615,6 +627,10 @@ export const fr: Dictionary = {
 }
 
 export const es: Dictionary = {
+  meta: {
+    title: "Paneles y Mallas para Zarandas Mineras | Poliuretano | HWZ",
+    description: "Proveedor de mallas y paneles para zarandas: poliuretano, deshidratación y alambre para minería de cobre, oro y carbón en Perú y Chile. Fabricación a medida.",
+  },
   nav: {
     about: "Nosotros",
     industries: "Industrias",
@@ -859,6 +875,10 @@ export const es: Dictionary = {
 }
 
 export const ru: Dictionary = {
+  meta: {
+    title: "Сита и панели для виброгрохотов в горной промышленности | HWZ",
+    description: "Поставщик просеивающих поверхностей для грохотов: полиуретановые и обезвоживающие панели, сетки для угля, меди, золота и карьеров. На заказ.",
+  },
   nav: {
     about: "О нас",
     industries: "Отрасли",
@@ -1099,6 +1119,10 @@ export const ru: Dictionary = {
 }
 
 export const ar: Dictionary = {
+  meta: {
+    title: "ألواح ومناخل الغرابيل الاهتزازية للتعدين | HWZ",
+    description: "مورّد وسائط الغربلة للتعدين: ألواح البولي يوريثان ونزح المياه وشبكات الأسلاك للفحم والنحاس والذهب والمحاجر. تصنيع حسب الطلب وتصدير عالمي.",
+  },
   nav: {
     about: "من نحن",
     industries: "الصناعات",

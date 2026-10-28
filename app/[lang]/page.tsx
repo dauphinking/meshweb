@@ -9,6 +9,7 @@ import { FloatingWhatsAppButton } from "@/components/whatsapp-button"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { InquiryModal } from "@/components/inquiry-modal"
 import { blogPosts, localizePost } from "@/lib/blog"
+import { formatPostDate } from "@/lib/format-date"
 
 const locales = ["en", "fr", "es", "ru", "ar"]
 const baseUrl = "https://www.screenmesh.org"
@@ -31,24 +32,24 @@ export async function generateMetadata({
 
   return {
     metadataBase: new URL(baseUrl),
-    title: `Mining Screen Mesh Manufacturer | HWZ Industrial Technology`,
-    description: dict.about.p1.slice(0, 160),
+    title: { absolute: dict.meta.title },
+    description: dict.meta.description,
     alternates: {
       canonical: `${baseUrl}/${lang}`,
       languages: alternateLanguages,
     },
     openGraph: {
-      title: "Mining Screen Mesh Manufacturer | HWZ Industrial Technology",
-      description: dict.hero.desc1,
+      title: dict.meta.title,
+      description: dict.meta.description,
       type: "website",
       locale: lang,
-      siteName: "HWZ Industrial Technology – Mining Screen Mesh",
+      siteName: "HWZ Industrial Technology",
       images: [
         {
           url: "/images/wire-mesh-hero.png",
           width: 1200,
           height: 630,
-          alt: "HWZ Industrial Technology – Premium Mining Screen Mesh Manufacturer",
+          alt: "HWZ Industrial Technology – Mining Screening Media Supplier",
         },
       ],
     },
@@ -137,7 +138,7 @@ export default async function HomePage({
             <div className="flex items-center space-x-4">
               <Image
                 src="/images/logo.jpg"
-                alt="HWZ Industrial Technology – Mining Screen Mesh Manufacturer"
+                alt="HWZ Industrial Technology – Mining Screening Media Supplier"
                 width={200}
                 height={60}
                 className="h-12 w-auto"
@@ -560,7 +561,7 @@ export default async function HomePage({
               <Link key={post.slug} href={`/${lang}/blog/${post.slug}`} className="group">
                 <div className="bg-white border border-gray-200 rounded-lg p-6 h-full hover:border-cyan-300 hover:shadow-md transition-all duration-300">
                   <p className="text-xs text-gray-400 mb-3">
-                    {new Date(post.date).toLocaleDateString("en-AU", { year: "numeric", month: "long", day: "numeric" })} · {post.readTime}
+                    {formatPostDate(post.date, lang)} · {post.readTime}
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 group-hover:text-cyan-600 mb-3 transition-colors leading-snug">
                     {post.title}
@@ -610,7 +611,7 @@ export default async function HomePage({
             <div className="bg-gradient-to-br from-cyan-500 to-blue-600 p-8 rounded-lg shadow-xl">
               <Image
                 src="/images/company-location-map.png"
-                alt="HWZ Industrial Technology Location – Shanghai, China – Mining Screen Mesh Manufacturer"
+                alt="HWZ Industrial Technology Location – Shanghai, China – Mining Screening Media Supplier"
                 width={600}
                 height={400}
                 className="w-full h-auto rounded-lg"
@@ -699,7 +700,7 @@ export default async function HomePage({
             <div className="mb-6">
               <Image
                 src="/images/logo.jpg"
-                alt="HWZ Industrial Technology – Mining Screen Mesh Manufacturer"
+                alt="HWZ Industrial Technology – Mining Screening Media Supplier"
                 width={200}
                 height={80}
                 className="h-16 w-auto mx-auto"
