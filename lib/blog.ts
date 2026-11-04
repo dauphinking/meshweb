@@ -1,4 +1,8 @@
 import { dewateringTranslations } from "./blog-dewatering-translations"
+import { esPosts } from "./blog-translations/es"
+import { frPosts } from "./blog-translations/fr"
+import { ruPosts } from "./blog-translations/ru"
+import { arPosts } from "./blog-translations/ar"
 
 export interface BlogPostText {
   title: string
@@ -19,13 +23,12 @@ export function localizePost(post: BlogPost, lang: string): BlogPost {
   return t ? { ...post, ...t } : post
 }
 
-export const blogPosts: BlogPost[] = [
+const basePosts: BlogPost[] = [
   {
     slug: "dewatering-screen-panels-selection-guide",
     title: "Dewatering Screen Panels: A Selection Guide for Sand, Coal Fines and Tailings",
     date: "2026-10-20",
     readTime: "7 min read",
-    translations: dewateringTranslations,
     description:
       "How to choose dewatering screen panels: polyurethane vs wedge wire vs rubber, slot width, panel layout and the operating problems that point to the wrong panel. A practical guide for sand plants, coal preparation and tailings operations.",
     keywords: [
@@ -438,6 +441,24 @@ export const blogPosts: BlogPost[] = [
     `.trim(),
   },
 ]
+
+const DEWATERING_SLUG = "dewatering-screen-panels-selection-guide"
+
+const translationsByLang: Record<string, Record<string, BlogPostText>> = {
+  es: esPosts,
+  fr: frPosts,
+  ru: ruPosts,
+  ar: arPosts,
+}
+
+export const blogPosts: BlogPost[] = basePosts.map((post) => {
+  const translations: Record<string, BlogPostText> = {}
+  for (const [lang, posts] of Object.entries(translationsByLang)) {
+    const t = posts[post.slug] ?? (post.slug === DEWATERING_SLUG ? dewateringTranslations[lang] : undefined)
+    if (t) translations[lang] = t
+  }
+  return { ...post, translations }
+})
 
 export function getBlogPost(slug: string): BlogPost | undefined {
   return blogPosts.find((post) => post.slug === slug)
