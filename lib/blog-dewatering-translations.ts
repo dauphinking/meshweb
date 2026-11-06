@@ -101,7 +101,7 @@ export const dewateringTranslations: Record<string, BlogPostText> = {
   <li>Concentración de sólidos de la alimentación y capacidad (t/h)</li>
   <li>Tipo de panel actual, ancho de ranura y vida útil, si va a reemplazar paneles existentes</li>
 </ul>
-<p>Fabricamos paneles de deshidratación a medida en poliuretano, alambre de cuña y caucho para cualquier zaranda, con plazos de entrega de 7 a 15 días hábiles, y exportamos a Perú, Chile y otros mercados mineros. Escriba a nuestro equipo de ingeniería a contact@biditech.cn para recibir una recomendación y una cotización.</p>
+<p>Fabricamos paneles de deshidratación a medida en poliuretano, alambre de cuña y caucho para cualquier zaranda, con plazos de entrega de 7 a 15 días hábiles, y exportamos a Perú, Chile y otros mercados mineros. Escriba a nuestro equipo de ingeniería a contact.contact@screenmesh.org para recibir una recomendación y una cotización.</p>
     `.trim(),
   },
   fr: {
@@ -204,7 +204,7 @@ export const dewateringTranslations: Record<string, BlogPostText> = {
   <li>Concentration en solides de l'alimentation et débit (t/h)</li>
   <li>Type de panneau actuel, largeur de fente et durée de vie, si vous remplacez des panneaux existants</li>
 </ul>
-<p>Nous fabriquons sur mesure des panneaux de déshydratation en polyuréthane, en fil profilé et en caoutchouc pour tout crible, avec des délais de 7 à 15 jours ouvrés, et nous exportons vers l'Australie, l'Asie du Sud-Est et l'Afrique. Contactez notre équipe d'ingénierie à contact@biditech.cn pour une recommandation et un devis.</p>
+<p>Nous fabriquons sur mesure des panneaux de déshydratation en polyuréthane, en fil profilé et en caoutchouc pour tout crible, avec des délais de 7 à 15 jours ouvrés, et nous exportons vers l'Australie, l'Asie du Sud-Est et l'Afrique. Contactez notre équipe d'ingénierie à contact.contact@screenmesh.org pour une recommandation et un devis.</p>
     `.trim(),
   },
 }

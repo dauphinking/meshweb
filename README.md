@@ -14,7 +14,7 @@ Custom panels are made to fit any vibrating screen. We export to Australia, Sout
 
 Site languages: [English](https://www.screenmesh.org/en) · [Español](https://www.screenmesh.org/es) · [Français](https://www.screenmesh.org/fr) · [Русский](https://www.screenmesh.org/ru) · [العربية](https://www.screenmesh.org/ar)
 
-Contact: contact@biditech.cn · +86-21-54385286
+Contact: contact.contact@screenmesh.org · +86-21-54385286
 
 ## Development
 

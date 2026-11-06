@@ -126,7 +126,7 @@ const basePosts: BlogPost[] = [
   <li>Feed solids concentration and throughput (t/h)</li>
   <li>Current panel type, slot width and service life, if you are replacing existing panels</li>
 </ul>
-<p>We manufacture custom dewatering screen panels in polyurethane, wedge wire and rubber to fit any vibrating screen, with lead times of 7–15 working days. Contact our engineering team at contact@biditech.cn for a recommendation and quote.</p>
+<p>We manufacture custom dewatering screen panels in polyurethane, wedge wire and rubber to fit any vibrating screen, with lead times of 7–15 working days. Contact our engineering team at contact.contact@screenmesh.org for a recommendation and quote.</p>
     `.trim(),
   },
   {

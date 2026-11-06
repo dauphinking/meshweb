@@ -173,7 +173,7 @@ export default async function HomePage({
                 <Mail className="h-5 w-5 text-cyan-500" />
                 <div>
                   <div className="text-sm text-slate-600 font-semibold">Customer Service</div>
-                  <div className="text-lg font-bold text-cyan-600">contact@biditech.cn</div>
+                  <div className="break-all text-lg font-bold text-cyan-600">contact.contact@screenmesh.org</div>
                 </div>
               </div>
             </div>
@@ -678,11 +678,11 @@ export default async function HomePage({
                 </div>
                 <p className="text-gray-700 mb-3">{dict.getInTouch.emailCard.body}</p>
                 <a
-                  href="mailto:contact@biditech.cn"
-                  className="inline-flex items-center text-cyan-600 hover:text-cyan-700 font-semibold transition-colors"
+                  href="mailto:contact.contact@screenmesh.org"
+                  className="inline-flex items-center break-all text-cyan-600 hover:text-cyan-700 font-semibold transition-colors"
                 >
                   <Mail className="h-4 w-4 mr-2" />
-                  contact@biditech.cn
+                  contact.contact@screenmesh.org
                 </a>
               </div>
             </div>

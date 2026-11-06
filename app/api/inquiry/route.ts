@@ -23,7 +23,7 @@ export async function POST(req: Request) {
 
     const { error } = await resend.emails.send({
       from: "ScreenMesh Inquiry <inquiry@screenmesh.org>",
-      to: ["contact@biditech.cn", process.env.NOTIFY_EMAIL].filter(Boolean) as string[],
+      to: ["contact.contact@screenmesh.org", process.env.NOTIFY_EMAIL].filter(Boolean) as string[],
       replyTo: contact.includes("@") ? contact : undefined,
       subject: `Mining Screen Mesh Inquiry – ${product || "General"} [from ${name}]`,
       text: lines.join("\n\n"),

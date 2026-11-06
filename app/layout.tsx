@@ -41,7 +41,7 @@ const organizationSchema = {
     '@type': 'ContactPoint',
     telephone: '+86-21-54385286',
     contactType: 'sales',
-    email: 'contact@biditech.cn',
+    email: 'contact.contact@screenmesh.org',
     areaServed: ['AU', 'PE', 'CL', 'SG', 'MY', 'ID', 'PH', 'ZA', 'NG', 'GH', 'CN'],
     availableLanguage: ['English', 'Chinese', 'French', 'Spanish', 'Russian', 'Arabic'],
   },

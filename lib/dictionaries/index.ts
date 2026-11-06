@@ -326,7 +326,7 @@ export const en: Dictionary = {
     title: "We Are Here Waiting for You",
     address: "Minhang, Shanghai",
     phone: "Phone: 0086-21-54385286",
-    email: "Email: contact@biditech.cn",
+    email: "Email: contact.contact@screenmesh.org",
   },
   getInTouch: {
     title: "Get In Touch",
@@ -570,7 +570,7 @@ export const fr: Dictionary = {
     title: "Nous Sommes Là pour Vous",
     address: "Minhang, Shanghai",
     phone: "Tél : 0086-21-54385286",
-    email: "Email : contact@biditech.cn",
+    email: "Email : contact.contact@screenmesh.org",
   },
   getInTouch: {
     title: "Contactez-Nous",
@@ -818,7 +818,7 @@ export const es: Dictionary = {
     title: "Estamos Aquí para Usted",
     address: "Minhang, Shanghái",
     phone: "Teléfono: 0086-21-54385286",
-    email: "Email: contact@biditech.cn",
+    email: "Email: contact.contact@screenmesh.org",
   },
   getInTouch: {
     title: "Contáctenos",
@@ -1062,7 +1062,7 @@ export const ru: Dictionary = {
     title: "Мы Здесь, Чтобы Помочь Вам",
     address: "Миньхан, Шанхай",
     phone: "Телефон: 0086-21-54385286",
-    email: "Email: contact@biditech.cn",
+    email: "Email: contact.contact@screenmesh.org",
   },
   getInTouch: {
     title: "Связаться с Нами",
@@ -1306,7 +1306,7 @@ export const ar: Dictionary = {
     title: "نحن هنا في انتظارك",
     address: "مينهانغ، شنغهاي",
     phone: "هاتف: 0086-21-54385286",
-    email: "البريد الإلكتروني: contact@biditech.cn",
+    email: "البريد الإلكتروني: contact.contact@screenmesh.org",
   },
   getInTouch: {
     title: "تواصل معنا",

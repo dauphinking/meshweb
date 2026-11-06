@@ -160,7 +160,7 @@ export function InquiryModal({ dict, lang }: InquiryModalProps) {
 
                   {status === "error" && (
                     <p className="text-xs text-red-500">
-                      Failed to send. Please try WhatsApp or email contact@biditech.cn directly.
+                      Failed to send. Please try WhatsApp or email contact.contact@screenmesh.org directly.
                     </p>
                   )}
                 </div>

@@ -184,7 +184,7 @@ export default async function BlogPostPage({
         <div className="max-w-3xl mx-auto px-4 text-center">
           <p className="text-gray-400 text-sm">{dict.footer.copyright}</p>
           <p className="text-gray-500 text-xs mt-1">
-            Mining Screening Media Supplier · Shanghai, China · contact@biditech.cn
+            Mining Screening Media Supplier · Shanghai, China · contact.contact@screenmesh.org
           </p>
         </div>
       </footer>
