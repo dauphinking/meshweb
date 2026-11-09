@@ -1,6 +1,127 @@
 import type { BlogPostText } from "../blog"
 
 export const frPosts: Record<string, BlogPostText> = {
+  "rubber-vs-polyurethane-screen-panels": {
+    title: "Panneaux de criblage en caoutchouc ou en polyuréthane : comment choisir pour votre crible vibrant",
+    readTime: "7 min de lecture",
+    description:
+      "Caoutchouc ou polyuréthane ? Comparaison pratique des panneaux de criblage en caoutchouc et en polyuréthane : comportement à l'impact et à l'usure, plage d'ouvertures, poids, résistance aux huiles et à l'ozone, et emplacement de chacun sur le tablier d'un crible vibrant de mine ou de carrière.",
+    keywords: [
+      "panneaux de criblage caoutchouc",
+      "caoutchouc ou polyuréthane panneaux de criblage",
+      "média de criblage caoutchouc",
+      "panneaux de criblage modulaires",
+      "panneaux de criblage mine",
+    ],
+    content: `
+<p>Le caoutchouc et le polyuréthane sont les deux matériaux que la plupart des exploitants envisagent lorsqu'ils passent de la toile métallique tissée aux panneaux de criblage modulaires. Tous deux sont flexibles, plus silencieux que l'acier et disponibles sous forme de panneaux modulaires remplaçables. Mais ils se comportent différemment face à l'impact, à l'abrasion et à l'humidité, et choisir le mauvais matériau pour un tablier donné est l'une des causes les plus fréquentes d'une durée de vie des panneaux trop courte. Ce guide compare les deux matériaux et indique où placer chacun.</p>
+
+<h2>La réponse en bref</h2>
+<ul>
+  <li><strong>Les panneaux en caoutchouc</strong> sont généralement le meilleur choix lorsque le principal problème est l'<strong>impact</strong> : gros blocs à l'alimentation, grandes hauteurs de chute, scalpage et tabliers primaires grossiers.</li>
+  <li><strong>Les panneaux en polyuréthane</strong> sont généralement le meilleur choix lorsque le principal problème est l'<strong>abrasion et le calibrage fin</strong> : criblage moyen et fin, criblage par voie humide, et tabliers qui exigent une ouverture plus fine ou une plus grande surface libre.</li>
+  <li>De nombreuses installations utilisent <strong>les deux sur un même crible</strong> : du caoutchouc côté alimentation, du polyuréthane plus loin sur le tablier.</li>
+</ul>
+
+<h2>Comparaison point par point</h2>
+<table style="width:100%;border-collapse:collapse;margin:16px 0">
+  <thead>
+    <tr style="background:#f1f5f9">
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Propriété</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Panneaux en caoutchouc</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Panneaux en polyuréthane</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Absorption des chocs</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Très bonne ; le matériau absorbe les impacts violents et reprend sa forme</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Bonne avec les qualités plus souples ; les qualités plus dures tolèrent moins bien les gros blocs</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Résistance à l'abrasion</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Bonne face à la roche grossière et tranchante ; s'use plus vite dans les pulpes fines, humides et abrasives</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Généralement plusieurs fois supérieure à celle du caoutchouc naturel en service abrasif moyen et fin</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Plage d'ouvertures</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Généralement utilisé pour des ouvertures plus grandes</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Peut être produit avec des ouvertures plus fines et une plus grande surface libre</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Huile, ozone et rayonnement solaire</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Le caoutchouc naturel est sensible à l'huile et à l'ozone ; les qualités synthétiques améliorent ce point</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Bonne résistance aux huiles, à l'ozone et à l'oxygène</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Poids</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Plus lourd par panneau</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Plus léger, plus facile à manipuler et à remplacer</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Bruit</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Faible</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Faible</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Emplacement type</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Côté alimentation, scalpage et tabliers grossiers</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Tabliers intermédiaires et inférieurs, criblage fin et par voie humide</td>
+    </tr>
+  </tbody>
+</table>
+<p>Il s'agit de tendances générales, non de garanties. La formulation, la dureté et la conception du panneau modifient le résultat : servez-vous de ce tableau pour restreindre le choix, puis confirmez-le par un essai sur un tablier.</p>
+
+<h2>Où utiliser les panneaux en caoutchouc</h2>
+<p>La force du caoutchouc est sa résilience. Lorsque de gros blocs tombent sur le tablier, le caoutchouc se déforme puis reprend sa forme au lieu de se fissurer ou de transmettre l'intégralité du choc au châssis. Les panneaux en caoutchouc sont donc un choix naturel pour :</p>
+<ul>
+  <li>L'extrémité d'alimentation d'un crible, là où la matière arrive depuis un convoyeur ou la décharge d'un concasseur</li>
+  <li>Les tabliers de scalpage et les tabliers primaires dans les exploitations de roche dure et les carrières</li>
+  <li>Le criblage grossier avec de grandes ouvertures et de fortes charges</li>
+</ul>
+<p>Le caoutchouc est également moins sensible à l'éventuel morceau surdimensionné ou à l'objet indésirable, qui peut endommager un panneau plus dur.</p>
+
+<h2>Où utiliser les panneaux en polyuréthane</h2>
+<p>La force du polyuréthane est sa durée de vie à l'usure en service abrasif, ainsi que la liberté de réaliser des ouvertures fines et précises. Il est généralement préféré pour :</p>
+<ul>
+  <li>Le criblage moyen et fin, y compris le criblage par voie humide du sable, du charbon et des pulpes minérales</li>
+  <li>Les tabliers où la surface libre et une coupure granulométrique précise sont déterminantes</li>
+  <li>Les applications exposées à l'huile ou à l'ozone, ou celles où des panneaux plus légers accélèrent les remplacements</li>
+</ul>
+<p>Les propriétés du matériau qui expliquent ces usages sont présentées dans notre article sur les <a href="polyurethane-screen-panel-properties">propriétés des panneaux de criblage en polyuréthane</a> ; pour le service fin par voie humide, consultez le <a href="dewatering-screen-panels-selection-guide">guide de sélection des panneaux de criblage pour déshydratation</a>.</p>
+
+<h2>Utiliser les deux sur un même tablier</h2>
+<p>Les deux matériaux ne sont pas concurrents sur tous les tabliers. Une disposition courante consiste à placer des panneaux en caoutchouc sur toute la zone d'alimentation, là où se concentrent les impacts, et des panneaux en polyuréthane sur le reste du tablier, où dominent l'abrasion et la précision du calibrage. Les panneaux modulaires facilitent cette approche, car chaque section peut être spécifiée et remplacée indépendamment : les panneaux usés de la zone d'alimentation peuvent être changés sans toucher au reste du tablier.</p>
+
+<h2>Liste de contrôle pour le choix</h2>
+<ol>
+  <li><strong>Granulométrie de l'alimentation et hauteur de chute.</strong> De gros blocs et de grandes hauteurs de chute orientent vers le caoutchouc dans la zone d'impact.</li>
+  <li><strong>Maille de coupure.</strong> Plus l'ouverture requise est fine, plus le polyuréthane est susceptible d'être l'option pratique.</li>
+  <li><strong>Abrasivité et humidité.</strong> Les alimentations fines, humides et abrasives favorisent généralement le polyuréthane.</li>
+  <li><strong>Contamination.</strong> L'exposition à l'huile, à la graisse ou à un fort ensoleillement favorise le polyuréthane ou un caoutchouc synthétique.</li>
+  <li><strong>Manutention.</strong> Si les panneaux sont changés à la main dans un espace confiné, le poids compte.</li>
+  <li><strong>Risque d'aveuglement.</strong> Les matières collantes ou proches de la maille exigent la bonne forme d'ouverture, quel que soit le matériau ; consultez notre guide sur la <a href="how-to-prevent-screen-hole-clogging">prévention du colmatage des ouvertures de crible</a>.</li>
+</ol>
+
+<h2>Erreurs courantes</h2>
+<ul>
+  <li><strong>Utiliser par défaut un seul matériau sur tout le tablier</strong> au lieu d'adapter chaque zone à son principal mécanisme d'usure.</li>
+  <li><strong>Choisir selon le prix par panneau</strong> plutôt que selon le coût par tonne criblée, qui intègre la durée de vie des panneaux et les arrêts.</li>
+  <li><strong>Négliger la dureté.</strong> Pour chaque matériau, la dureté modifie à la fois la tolérance aux impacts et la durée de vie à l'usure.</li>
+  <li><strong>Faire l'impasse sur un essai.</strong> Quelques panneaux sur un tablier en disent généralement plus qu'une fiche technique.</li>
+</ul>
+
+<h2>Ce qu'il faut nous communiquer pour une recommandation</h2>
+<p>Pour vous recommander du caoutchouc, du polyuréthane ou une combinaison des deux pour votre crible, transmettez-nous :</p>
+<ul>
+  <li>La marque et le modèle du crible, les dimensions du tablier et le système de fixation des panneaux</li>
+  <li>La nature de la matière, sa granulométrie d'alimentation et la hauteur de chute sur le tablier</li>
+  <li>La maille de coupure requise et le débit</li>
+  <li>L'humidité, toute exposition à l'huile, ainsi que votre type de panneau actuel et sa durée de service</li>
+</ul>
+<p>Nous fabriquons sur mesure des panneaux de criblage en caoutchouc et en polyuréthane adaptés à tout crible vibrant, avec des délais de 7 à 15 jours ouvrés. Contactez notre équipe d'ingénieurs à l'adresse contact.contact@screenmesh.org pour obtenir une recommandation et un devis.</p>
+    `.trim(),
+  },
   "common-causes-of-screen-mesh-clogging": {
     title: "Causes courantes du colmatage des toiles de criblage sur les cribles vibrants",
     readTime: "5 min de lecture",

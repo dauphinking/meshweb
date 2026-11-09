@@ -1,6 +1,127 @@
 import type { BlogPostText } from "../blog"
 
 export const esPosts: Record<string, BlogPostText> = {
+  "rubber-vs-polyurethane-screen-panels": {
+    title: "Paneles de caucho vs. poliuretano para zarandas: cómo elegir para su zaranda vibratoria",
+    readTime: "7 min de lectura",
+    description:
+      "¿Caucho o poliuretano? Una comparación práctica de los paneles de cribado de caucho y de poliuretano: comportamiento ante el impacto y el desgaste, rango de aberturas, peso, resistencia a aceites y ozono, y el lugar que ocupa cada uno en la cubierta de una zaranda vibratoria minera o de cantera.",
+    keywords: [
+      "paneles de caucho para zaranda",
+      "caucho vs poliuretano paneles de zaranda",
+      "medios de cribado de caucho",
+      "paneles modulares para zaranda",
+      "paneles de cribado para minería",
+    ],
+    content: `
+<p>El caucho y el poliuretano son los dos materiales que la mayoría de los operadores considera al pasar de la malla de alambre tejido a los paneles modulares de cribado. Ambos son flexibles, ambos son más silenciosos que el acero y ambos se ofrecen como paneles modulares reemplazables. Sin embargo, se comportan de forma distinta frente al impacto, la abrasión y la humedad, y elegir el material equivocado para una cubierta determinada es una de las causas más comunes de una vida útil corta de los paneles. Esta guía compara ambos materiales y muestra dónde corresponde cada uno.</p>
+
+<h2>La respuesta corta</h2>
+<ul>
+  <li>Los <strong>paneles de caucho</strong> suelen ser la mejor opción cuando el principal problema es el <strong>impacto</strong>: trozos grandes en la alimentación, grandes alturas de caída, precribado y cubiertas primarias gruesas.</li>
+  <li>Los <strong>paneles de poliuretano</strong> suelen ser la mejor opción cuando el principal problema es la <strong>abrasión y el cribado fino</strong>: cribado medio y fino, cribado en húmedo y cubiertas que requieren una abertura más fina o un área abierta mayor.</li>
+  <li>Muchas plantas usan <strong>ambos en la misma zaranda</strong>: caucho en el extremo de alimentación y poliuretano más adelante en la cubierta.</li>
+</ul>
+
+<h2>Comparación lado a lado</h2>
+<table style="width:100%;border-collapse:collapse;margin:16px 0">
+  <thead>
+    <tr style="background:#f1f5f9">
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Propiedad</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Paneles de caucho</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Paneles de poliuretano</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Absorción de impacto</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Muy buena; el material absorbe los impactos fuertes y rebota</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Buena en grados más blandos; los grados más duros son menos tolerantes ante trozos grandes</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Resistencia a la abrasión</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Buena frente a roca gruesa y filosa; se desgasta más rápido en pulpa fina, húmeda y abrasiva</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Típicamente varias veces mejor que el caucho natural en servicio abrasivo de cribado medio y fino</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Rango de aberturas</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Se usa por lo general para aberturas más gruesas</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Puede fabricarse con aberturas más finas y mayor área abierta</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Aceite, ozono y luz solar</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">El caucho natural es sensible al aceite y al ozono; los grados sintéticos mejoran este aspecto</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Buena resistencia a aceites, ozono y oxígeno</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Peso</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Más pesado por panel</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Más liviano, más fácil de manipular y de cambiar</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Ruido</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Bajo</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Bajo</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Posición típica</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Extremo de alimentación, precribado y cubiertas gruesas</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Cubiertas intermedias e inferiores, cribado fino y en húmedo</td>
+    </tr>
+  </tbody>
+</table>
+<p>Estas son tendencias generales, no garantías. El compuesto, la dureza y el diseño del panel modifican el resultado; por eso, use la tabla para acotar la elección y confírmela con una cubierta de prueba.</p>
+
+<h2>Dónde encajan los paneles de caucho</h2>
+<p>La fortaleza del caucho es su resiliencia. Cuando caen trozos grandes sobre la cubierta, el caucho se deforma y se recupera en lugar de agrietarse o transmitir todo el golpe al bastidor. Eso convierte a los paneles de caucho en una opción natural para:</p>
+<ul>
+  <li>El extremo de alimentación de una zaranda, donde el material cae desde una correa transportadora o desde la descarga de un chancador</li>
+  <li>Cubiertas de precribado y primarias en operaciones de roca dura y de cantera</li>
+  <li>Cribado grueso con aberturas grandes y cargas pesadas</li>
+</ul>
+<p>El caucho también es menos sensible a la pieza sobredimensionada ocasional o al objeto extraño, que puede dañar un panel más duro.</p>
+
+<h2>Dónde encajan los paneles de poliuretano</h2>
+<p>La fortaleza del poliuretano es su vida útil frente al desgaste en servicio abrasivo y la libertad de fabricar aberturas finas y precisas. Suele preferirse para:</p>
+<ul>
+  <li>Cribado medio y fino, incluido el cribado en húmedo de arena, carbón y pulpas minerales</li>
+  <li>Cubiertas donde importan el área abierta y un tamaño de corte preciso</li>
+  <li>Aplicaciones con exposición a aceite u ozono, o donde unos paneles más livianos agilizan los cambios</li>
+</ul>
+<p>Las propiedades del material que sustentan esto se tratan en nuestro artículo sobre las <a href="polyurethane-screen-panel-properties">propiedades de los paneles de cribado de poliuretano</a>; para el servicio fino en húmedo, consulte la <a href="dewatering-screen-panels-selection-guide">guía de selección de paneles de deshidratación</a>.</p>
+
+<h2>Cómo usar ambos en la misma cubierta</h2>
+<p>Los dos materiales no son rivales en todas las cubiertas. Una disposición habitual consiste en colocar paneles de caucho en el extremo de alimentación, donde está el impacto, y paneles de poliuretano en el resto de la cubierta, donde predominan la abrasión y el dimensionamiento preciso. Los paneles modulares lo facilitan porque cada sección puede especificarse y reemplazarse por separado, de modo que los paneles desgastados del extremo de alimentación pueden cambiarse sin tocar el resto de la cubierta.</p>
+
+<h2>Lista de verificación para la selección</h2>
+<ol>
+  <li><strong>Tamaño de alimentación y altura de caída.</strong> Los trozos grandes y las caídas altas apuntan al caucho en la zona de impacto.</li>
+  <li><strong>Tamaño de corte.</strong> Cuanto más fina sea la abertura requerida, más probable es que el poliuretano sea la opción práctica.</li>
+  <li><strong>Abrasividad y humedad.</strong> Las alimentaciones finas, húmedas y abrasivas suelen favorecer al poliuretano.</li>
+  <li><strong>Contaminación.</strong> La exposición a aceite, grasa o a luz solar intensa favorece al poliuretano o a un compuesto de caucho sintético.</li>
+  <li><strong>Manipulación.</strong> Si los paneles se cambian a mano en un espacio reducido, el peso es importante.</li>
+  <li><strong>Riesgo de cegado.</strong> El material pegajoso o de tamaño cercano a la abertura requiere la forma de abertura adecuada en cualquiera de los dos materiales; consulte nuestra guía para <a href="how-to-prevent-screen-hole-clogging">prevenir la obstrucción de las aberturas de la malla</a>.</li>
+</ol>
+
+<h2>Errores comunes</h2>
+<ul>
+  <li><strong>Usar por defecto un solo material en toda la cubierta</strong> en lugar de adecuar cada zona a su principal mecanismo de desgaste.</li>
+  <li><strong>Elegir por el precio por panel</strong> en lugar del costo por tonelada cribada, que incluye la vida útil del panel y las paradas.</li>
+  <li><strong>Ignorar la dureza.</strong> Dentro de cada material, el grado de dureza modifica tanto la tolerancia al impacto como la vida útil frente al desgaste.</li>
+  <li><strong>Omitir una prueba.</strong> Unos pocos paneles en una cubierta suelen informar más que una hoja de datos.</li>
+</ul>
+
+<h2>Qué enviarnos para una recomendación</h2>
+<p>Para recomendarle caucho, poliuretano o una combinación para su zaranda, envíenos:</p>
+<ul>
+  <li>Marca y modelo de la zaranda, dimensiones de la cubierta y sistema de fijación de los paneles</li>
+  <li>Tipo de material, tamaño de alimentación y altura de caída sobre la cubierta</li>
+  <li>Tamaño de corte requerido y capacidad de procesamiento</li>
+  <li>Humedad, cualquier exposición a aceite, y su tipo de panel actual y su vida útil</li>
+</ul>
+<p>Fabricamos paneles de cribado de caucho y de poliuretano a medida para cualquier zaranda vibratoria, con plazos de entrega de 7–15 días hábiles. Comuníquese con nuestro equipo de ingeniería en contact.contact@screenmesh.org para recibir una recomendación y una cotización.</p>
+    `.trim(),
+  },
   "common-causes-of-screen-mesh-clogging": {
     title: "Causas comunes de obstrucción de la malla en zarandas vibratorias",
     readTime: "5 min de lectura",
