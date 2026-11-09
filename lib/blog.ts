@@ -25,6 +25,129 @@ export function localizePost(post: BlogPost, lang: string): BlogPost {
 
 const basePosts: BlogPost[] = [
   {
+    slug: "rubber-vs-polyurethane-screen-panels",
+    title: "Rubber vs Polyurethane Screen Panels: How to Choose for Your Vibrating Screen",
+    date: "2026-11-09",
+    readTime: "7 min read",
+    description:
+      "Rubber or polyurethane? A practical comparison of rubber and polyurethane screen panels: impact and wear behaviour, aperture range, weight, oil and ozone resistance, and where each belongs on a mining or quarry vibrating screen deck.",
+    keywords: [
+      "rubber screen panels",
+      "rubber vs polyurethane screen panels",
+      "rubber screening media",
+      "modular screen panels",
+      "mining screen panels",
+    ],
+    content: `
+<p>Rubber and polyurethane are the two materials most operators consider when they move from woven wire to modular screen panels. Both are flexible, both are quieter than steel, and both are available as replaceable modular panels. But they behave differently under impact, abrasion and moisture, and choosing the wrong one for a given deck is one of the most common reasons for short panel life. This guide compares the two and shows where each belongs.</p>
+
+<h2>The Short Answer</h2>
+<ul>
+  <li><strong>Rubber panels</strong> are usually the better choice where the main problem is <strong>impact</strong>: large feed lumps, high drop heights, scalping and coarse primary decks.</li>
+  <li><strong>Polyurethane panels</strong> are usually the better choice where the main problem is <strong>abrasion and fine sizing</strong>: medium and fine screening, wet screening, and decks that need a finer aperture or a larger open area.</li>
+  <li>Many plants use <strong>both on the same screen</strong>: rubber at the feed end, polyurethane further down the deck.</li>
+</ul>
+
+<h2>Side-by-Side Comparison</h2>
+<table style="width:100%;border-collapse:collapse;margin:16px 0">
+  <thead>
+    <tr style="background:#f1f5f9">
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Property</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Rubber panels</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Polyurethane panels</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Impact absorption</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Very good; the material absorbs and rebounds from heavy impacts</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Good in softer grades; harder grades are less forgiving under heavy lumps</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Abrasion resistance</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Good against coarse, sharp rock; wears faster in fine, wet, abrasive slurry</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Typically several times better than natural rubber in abrasive medium and fine duty</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Aperture range</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Generally used for coarser apertures</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Can be produced with finer apertures and a larger open area</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Oil, ozone and sunlight</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Natural rubber is sensitive to oil and ozone; synthetic grades improve this</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Good resistance to oils, ozone and oxygen</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Weight</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Heavier per panel</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Lighter, easier to handle and change</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Noise</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Low</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Low</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Typical position</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Feed end, scalping and coarse decks</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Mid and lower decks, fine and wet screening</td>
+    </tr>
+  </tbody>
+</table>
+<p>These are general tendencies, not guarantees. Compound, hardness and panel design all change the result, so use the table to narrow the choice and confirm it with a trial deck.</p>
+
+<h2>Where Rubber Panels Fit</h2>
+<p>Rubber's strength is its resilience. When large lumps fall onto the deck, the rubber deforms and recovers instead of cracking or transferring the full shock into the frame. That makes rubber panels a natural choice for:</p>
+<ul>
+  <li>The feed end of a screen, where material lands from a conveyor or crusher discharge</li>
+  <li>Scalping and primary decks in hard rock and quarry operations</li>
+  <li>Coarse screening with large apertures and heavy loads</li>
+</ul>
+<p>Rubber is also less sensitive to the occasional oversize piece or tramp item, which can damage a harder panel.</p>
+
+<h2>Where Polyurethane Panels Fit</h2>
+<p>Polyurethane's strength is wear life in abrasive duty and the freedom to make fine, accurate apertures. It is usually preferred for:</p>
+<ul>
+  <li>Medium and fine screening, including wet screening of sand, coal and mineral slurries</li>
+  <li>Decks where open area and a precise cut size matter</li>
+  <li>Applications with oil or ozone exposure, or where lighter panels speed up change-outs</li>
+</ul>
+<p>The material properties behind this are covered in our article on <a href="polyurethane-screen-panel-properties">polyurethane screen panel properties</a>, and for wet fine duty see the <a href="dewatering-screen-panels-selection-guide">dewatering screen panel selection guide</a>.</p>
+
+<h2>Using Both on the Same Deck</h2>
+<p>The two materials are not rivals on every deck. A common arrangement is rubber panels across the feed end, where the impact is, and polyurethane panels over the rest of the deck, where abrasion and accurate sizing dominate. Modular panels make this easy because each section can be specified and replaced on its own, so the worn feed-end panels can be changed without touching the rest of the deck.</p>
+
+<h2>Selection Checklist</h2>
+<ol>
+  <li><strong>Feed size and drop height.</strong> Large lumps and high drops point to rubber at the impact zone.</li>
+  <li><strong>Cut size.</strong> The finer the required aperture, the more likely polyurethane is the practical option.</li>
+  <li><strong>Abrasiveness and moisture.</strong> Fine, wet, abrasive feeds usually favour polyurethane.</li>
+  <li><strong>Contamination.</strong> Oil, grease or strong sunlight exposure favours polyurethane or a synthetic rubber compound.</li>
+  <li><strong>Handling.</strong> If panels are changed by hand in a confined space, weight matters.</li>
+  <li><strong>Blinding risk.</strong> Sticky or near-size material needs the right aperture shape in either material; see our guide to <a href="how-to-prevent-screen-hole-clogging">preventing screen hole clogging</a>.</li>
+</ol>
+
+<h2>Common Mistakes</h2>
+<ul>
+  <li><strong>Using one material across the whole deck by default</strong> instead of matching each zone to its main wear mechanism.</li>
+  <li><strong>Choosing by price per panel</strong> instead of cost per tonne screened, which includes panel life and downtime.</li>
+  <li><strong>Ignoring hardness.</strong> Within each material, the hardness grade changes both impact tolerance and wear life.</li>
+  <li><strong>Skipping a trial.</strong> A few panels on one deck usually tell you more than a datasheet.</li>
+</ul>
+
+<h2>What to Send Us for a Recommendation</h2>
+<p>To recommend rubber, polyurethane or a combination for your screen, send us:</p>
+<ul>
+  <li>Screen make and model, deck dimensions and the panel fixing system</li>
+  <li>Material type, feed size and drop height onto the deck</li>
+  <li>Required cut size and throughput</li>
+  <li>Moisture, any oil exposure, and your current panel type and service life</li>
+</ul>
+<p>We manufacture custom rubber and polyurethane screen panels to fit any vibrating screen, with lead times of 7–15 working days. Contact our engineering team at contact.contact@screenmesh.org for a recommendation and quote.</p>
+    `.trim(),
+  },
+  {
     slug: "dewatering-screen-panels-selection-guide",
     title: "Dewatering Screen Panels: A Selection Guide for Sand, Coal Fines and Tailings",
     date: "2026-10-20",
