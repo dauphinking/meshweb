@@ -1,6 +1,118 @@
 import type { BlogPostText } from "../blog"
 
 export const frPosts: Record<string, BlogPostText> = {
+  "quarry-screen-mesh-aggregate-screen-media-guide": {
+    title: "Toile de criblage pour carrière et média de criblage pour granulats : choisir le bon média pour chaque tablier",
+    readTime: "8 min de lecture",
+    description:
+      "Comment choisir la toile de criblage de carrière et le média de criblage pour granulats tablier par tablier : tôle perforée, toile métallique tissée, panneaux en caoutchouc et en polyuréthane, ouvertures carrées ou oblongues, diamètre de fil et surface libre, et les vérifications qui évitent l'usure prématurée et le colmatage.",
+    keywords: [
+      "toile de criblage carrière",
+      "média de criblage granulats",
+      "toile métallique tissée pour crible",
+      "choix de l'ouverture de criblage",
+      "toile pour crible vibrant de carrière",
+    ],
+    content: `
+<p>Une carrière ou une installation de granulats utilise rarement un seul type de média de criblage du haut en bas du crible. Le tablier supérieur encaisse les impacts les plus violents, les tabliers intermédiaires assurent l'essentiel du calibrage, et le tablier inférieur traite souvent la matière la plus fine et la plus collante. Choisir la toile de criblage de carrière tablier par tablier, plutôt que d'acheter un seul type pour toute la machine, est l'un des moyens les plus simples de prolonger la durée de vie du média et de garder une granulométrie de produit stable.</p>
+
+<h2>Partir de ce que chaque tablier doit supporter</h2>
+<ul>
+  <li><strong>Tablier supérieur (scalpage) :</strong> gros blocs à l'alimentation et grandes hauteurs de chute. Le principal ennemi est l'impact.</li>
+  <li><strong>Tabliers intermédiaires :</strong> abrasion continue pendant que le tablier calibre la majeure partie de la matière. Le principal ennemi est l'usure.</li>
+  <li><strong>Tablier inférieur (fines) :</strong> matière fine, parfois humide. Les principaux ennemis sont le colmatage et la perte de surface libre.</li>
+</ul>
+<p>Savoir quel problème domine sur chaque tablier indique le type de média de criblage à examiner en premier.</p>
+
+<h2>Types courants de média de criblage pour granulats</h2>
+<table style="width:100%;border-collapse:collapse;margin:16px 0">
+  <thead>
+    <tr style="background:#f1f5f9">
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Type de média</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Points forts</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Points de vigilance</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Position type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Tôle perforée</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Rigide et robuste sous de fortes charges et face aux gros blocs</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Surface libre inférieure à celle de la toile métallique tissée, à ouverture égale</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Tabliers de scalpage et tabliers supérieurs grossiers</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Toile métallique tissée (à fils ondulés)</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Grande surface libre, calibrage précis, large choix d'ouvertures et de diamètres de fil</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Le fil s'use et peut casser sous une abrasion ou un impact soutenus ; les particules proches de la maille peuvent se coincer</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Tabliers intermédiaires et inférieurs, calibrage général</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Grilles en fil soudé</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Panneau rigide aux ouvertures régulières pour service sévère</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">La qualité des soudures détermine la durée de vie</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Roche dure et calibrage en service sévère</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Panneaux en caoutchouc</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Absorbent les chocs, silencieux</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Généralement limités aux ouvertures plus grandes</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Côté alimentation et tabliers de scalpage</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Panneaux en polyuréthane</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Longue durée de vie en service abrasif, ouvertures plus fines possibles, panneaux plus légers</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Choisir la dureté et la forme d'ouverture en fonction de la matière d'alimentation</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Tabliers intermédiaires et inférieurs, criblage fin ou par voie humide</td>
+    </tr>
+  </tbody>
+</table>
+<p>Pour une comparaison plus détaillée des deux matériaux modulaires, consultez <a href="rubber-vs-polyurethane-screen-panels">panneaux de criblage en caoutchouc ou en polyuréthane</a> et <a href="polyurethane-screen-panel-properties">propriétés des panneaux de criblage en polyuréthane</a>.</p>
+
+<h2>Choisir l'ouverture</h2>
+<p>L'ouverture est normalement choisie légèrement supérieure à la dimension nominale du produit à séparer, car les particules proches de la taille de l'ouverture sont retenues ou passent lentement. La marge dépend de la matière, de l'humidité, de l'inclinaison du crible et de la précision recherchée ; considérez donc toute règle empirique comme un point de départ et confirmez-la par une analyse granulométrique du produit.</p>
+<ul>
+  <li><strong>Les ouvertures carrées</strong> offrent le contrôle dimensionnel le plus précis.</li>
+  <li><strong>Les ouvertures oblongues</strong> augmentent généralement le débit et réduisent le colmatage, mais les particules allongées et plates peuvent passer ; la forme du produit compte donc.</li>
+  <li><strong>La spécification du produit d'abord.</strong> Si la spécification du client limite les refus ou les passants, dimensionnez l'ouverture et vérifiez le résultat par rapport à cette limite, et non par rapport à la valeur nominale.</li>
+</ul>
+
+<h2>Diamètre de fil et surface libre</h2>
+<p>Pour la toile métallique tissée, un fil plus épais dure plus longtemps mais occupe une plus grande part de la surface : la surface libre diminue et le débit baisse. Un fil plus fin offre davantage de surface libre mais s'use et se fatigue plus tôt. Le bon équilibre dépend du caractère abrasif et de la charge de la matière d'alimentation. Sur le tablier supérieur, privilégiez la robustesse ; sur les tabliers inférieurs, où le débit et la précision du calibrage comptent, privilégiez la surface libre.</p>
+
+<h2>Tension, fixation et supports</h2>
+<p>De nombreuses défaillances précoces viennent de l'installation plutôt que du matériau :</p>
+<ul>
+  <li>Une toile trop lâche bat et se fatigue ; une toile trop tendue peut se fissurer au niveau des crochets</li>
+  <li>Des supports usés ou irréguliers laissent le média fléchir et se rompre</li>
+  <li>Les panneaux modulaires exigent des cadres propres et non endommagés, ainsi que le système de fixation adapté au modèle de crible</li>
+</ul>
+<p>Vérifiez les supports et le système de fixation à chaque remplacement du média. Notre guide sur <a href="vibrating-screen-performance-and-screen-mesh">l'influence du réglage du crible vibrant sur les performances de criblage</a> traite plus en détail du côté machine.</p>
+
+<h2>Colmatage et alimentation humide</h2>
+<p>Si le tablier inférieur se colmate, examinez d'abord l'humidité de la matière d'alimentation et la forme de l'ouverture avant de changer tout le crible. Des ouvertures coniques, un média plus flexible ou une autre forme d'ouverture aident souvent. Voir <a href="common-causes-of-screen-mesh-clogging">les causes courantes de colmatage de la toile de criblage</a> et <a href="how-to-prevent-screen-hole-clogging">comment éviter le colmatage des ouvertures de crible</a>.</p>
+
+<h2>Liste de contrôle pour le choix</h2>
+<ol>
+  <li>Identifier le principal problème de chaque tablier : impact, usure ou colmatage.</li>
+  <li>Fixer la dimension cible du produit ainsi que les refus et passants admis.</li>
+  <li>Choisir le type de média pour chaque tablier, et non un seul type pour tout le crible.</li>
+  <li>Choisir des ouvertures carrées ou oblongues selon l'arbitrage précision / débit.</li>
+  <li>Pour la toile métallique tissée, équilibrer le diamètre de fil et la surface libre.</li>
+  <li>Vérifier la tension, la fixation et les supports à chaque remplacement.</li>
+  <li>Comparer les options au coût par tonne criblée, et non au prix par panneau.</li>
+</ol>
+
+<h2>Ce qu'il faut nous communiquer pour une recommandation</h2>
+<ul>
+  <li>Marque et modèle du crible, nombre de tabliers, dimensions des tabliers et système de fixation</li>
+  <li>Type de matière, granulométrie d'alimentation, humidité et débit</li>
+  <li>Dimensions de produit requises et éventuelles limites de refus ou de passants</li>
+  <li>Type de média actuel, ouverture et durée de vie, si vous remplacez des toiles existantes</li>
+</ul>
+<p>Nous fabriquons sur mesure des toiles de criblage pour carrières et des médias de criblage pour granulats, notamment en toile métallique tissée, en fil soudé, ainsi que des panneaux en caoutchouc et en polyuréthane, adaptés à tout crible vibrant, avec des délais de 7–15 jours ouvrés. Contactez notre équipe d'ingénieurs à contact.contact@screenmesh.org pour une recommandation et un devis.</p>
+    `.trim(),
+  },
   "rubber-vs-polyurethane-screen-panels": {
     title: "Panneaux de criblage en caoutchouc ou en polyuréthane : comment choisir pour votre crible vibrant",
     readTime: "7 min de lecture",

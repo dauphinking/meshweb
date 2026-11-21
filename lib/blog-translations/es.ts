@@ -1,6 +1,118 @@
 import type { BlogPostText } from "../blog"
 
 export const esPosts: Record<string, BlogPostText> = {
+  "quarry-screen-mesh-aggregate-screen-media-guide": {
+    title: "Malla para zarandas de cantera y medios de cribado para áridos: cómo elegir el medio adecuado para cada cubierta",
+    readTime: "8 min de lectura",
+    description:
+      "Cómo elegir la malla para zarandas de cantera y los medios de cribado para áridos cubierta por cubierta: plancha perforada, malla de alambre tejido, paneles de caucho y de poliuretano, aberturas cuadradas o ranuradas, diámetro del alambre y área abierta, y las verificaciones que evitan el desgaste prematuro y el cegado.",
+    keywords: [
+      "malla para zaranda de cantera",
+      "medios de cribado para áridos",
+      "malla de alambre tejido para zaranda",
+      "selección de abertura de malla",
+      "malla para zaranda vibratoria de cantera",
+    ],
+    content: `
+<p>Una cantera o una planta de áridos rara vez usa un solo tipo de medio de cribado de arriba abajo. La cubierta superior recibe el mayor impacto, las cubiertas intermedias hacen la mayor parte de la clasificación por tamaños y la cubierta inferior suele manejar el material más fino y pegajoso. Elegir la malla para zarandas de cantera cubierta por cubierta, en lugar de comprar un solo tipo para toda la máquina, es una de las formas más sencillas de prolongar la vida útil del medio y mantener estable la especificación del producto.</p>
+
+<h2>Comience por lo que debe soportar cada cubierta</h2>
+<ul>
+  <li><strong>Cubierta superior (de precribado):</strong> trozos grandes en la alimentación y grandes alturas de caída. El principal enemigo es el impacto.</li>
+  <li><strong>Cubiertas intermedias:</strong> abrasión continua mientras la cubierta clasifica la mayor parte del material. El principal enemigo es el desgaste.</li>
+  <li><strong>Cubierta inferior (de finos):</strong> material fino, a veces húmedo. Los principales enemigos son el cegado y la pérdida de área abierta.</li>
+</ul>
+<p>Conocer el problema dominante en cada cubierta le indica qué tipo de medio de cribado debe evaluar primero.</p>
+
+<h2>Tipos comunes de medios de cribado para áridos</h2>
+<table style="width:100%;border-collapse:collapse;margin:16px 0">
+  <thead>
+    <tr style="background:#f1f5f9">
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Tipo de medio</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Ventajas</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Puntos de atención</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Posición típica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Plancha perforada</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Rígida y robusta ante cargas pesadas y trozos grandes</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Menor área abierta que la malla de alambre tejido con la misma abertura</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Cubiertas superiores de precribado y de material grueso</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Malla de alambre tejido (ondulado)</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Alta área abierta, clasificación precisa, amplia variedad de aberturas y diámetros de alambre</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">El alambre se desgasta y puede romperse con abrasión o impacto sostenidos; las partículas cercanas al tamaño de la abertura pueden atascarse</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Cubiertas intermedias e inferiores, clasificación general</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Mallas de alambre soldado</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Panel rígido con aberturas uniformes para servicio pesado</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">La calidad de la soldadura determina la vida útil</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Roca dura y clasificación en servicio pesado</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Paneles de caucho</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Absorben el impacto, silenciosos</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Por lo general limitados a aberturas más gruesas</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Extremo de alimentación y cubiertas de precribado</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Paneles de poliuretano</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Larga vida útil frente al desgaste en servicio abrasivo, posibilidad de aberturas más finas, paneles más livianos</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Elija la dureza y la forma de la abertura según la alimentación</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Cubiertas intermedias e inferiores, cribado fino o en húmedo</td>
+    </tr>
+  </tbody>
+</table>
+<p>Para una comparación más detallada de los dos materiales modulares, consulte <a href="rubber-vs-polyurethane-screen-panels">paneles de caucho vs. poliuretano para zarandas</a> y <a href="polyurethane-screen-panel-properties">propiedades de los paneles de cribado de poliuretano</a>.</p>
+
+<h2>Cómo elegir la abertura</h2>
+<p>Normalmente la abertura se elige un poco mayor que el tamaño nominal del producto que se desea separar, porque las partículas cercanas al tamaño de la abertura quedan retenidas o pasan lentamente. El margen depende del material, de la humedad, de la inclinación de la zaranda y de la precisión requerida; por eso, tome cualquier regla práctica como punto de partida y confírmela con un análisis granulométrico del producto.</p>
+<ul>
+  <li>Las <strong>aberturas cuadradas</strong> ofrecen el control de tamaño más preciso.</li>
+  <li>Las <strong>aberturas ranuradas</strong> suelen aumentar la capacidad y reducir el cegado, pero pueden dejar pasar partículas alargadas y laminares, por lo que importa la forma del producto.</li>
+  <li><strong>Primero la especificación del producto.</strong> Si la especificación del cliente limita el sobretamaño o el subtamaño, dimensione la abertura y verifique el resultado frente a ese límite, no frente a la cifra nominal.</li>
+</ul>
+
+<h2>Diámetro del alambre y área abierta</h2>
+<p>En la malla de alambre tejido, un alambre más grueso dura más, pero ocupa más superficie, de modo que el área abierta disminuye y la capacidad baja. Un alambre más delgado ofrece más área abierta, pero se desgasta y se fatiga antes. El equilibrio adecuado depende de qué tan abrasiva y pesada sea la alimentación. En la cubierta superior conviene privilegiar la robustez; en las cubiertas inferiores, donde importan la capacidad y la clasificación precisa, conviene privilegiar el área abierta.</p>
+
+<h2>Tensión, fijación y soporte</h2>
+<p>Muchas fallas prematuras se deben a la instalación y no al material:</p>
+<ul>
+  <li>La malla demasiado floja se agita y se fatiga; la malla tensada en exceso puede agrietarse en los ganchos</li>
+  <li>Los rieles de soporte desgastados o desiguales permiten que el medio se flexione y se rompa</li>
+  <li>Los paneles modulares requieren bastidores limpios y sin daños, y el sistema de fijación correcto para el modelo de zaranda</li>
+</ul>
+<p>Revise los soportes y el sistema de fijación cada vez que cambie el medio. Nuestra guía sobre <a href="vibrating-screen-performance-and-screen-mesh">cómo influye la configuración de la zaranda vibratoria en el rendimiento del cribado</a> trata el lado de la máquina con más detalle.</p>
+
+<h2>Cegado y alimentación húmeda</h2>
+<p>Si la cubierta inferior se ciega, revise primero la humedad de la alimentación y la forma de la abertura antes de cambiar toda la malla. Las aberturas cónicas, un medio más flexible o una forma de abertura distinta suelen ayudar. Consulte las <a href="common-causes-of-screen-mesh-clogging">causas comunes de obstrucción de la malla</a> y cómo <a href="how-to-prevent-screen-hole-clogging">prevenir la obstrucción de las aberturas de la malla</a>.</p>
+
+<h2>Lista de verificación para la selección</h2>
+<ol>
+  <li>Identifique el problema principal de cada cubierta: impacto, desgaste o cegado.</li>
+  <li>Defina el tamaño objetivo del producto y el sobretamaño y subtamaño permitidos.</li>
+  <li>Elija el tipo de medio para cada cubierta, no un solo tipo para toda la zaranda.</li>
+  <li>Elija aberturas cuadradas o ranuradas según la precisión frente a la capacidad.</li>
+  <li>Equilibre el diámetro del alambre y el área abierta en la malla de alambre tejido.</li>
+  <li>Revise la tensión, la fijación y los soportes en cada cambio de medio.</li>
+  <li>Compare las opciones por el costo por tonelada cribada, no por el precio por panel.</li>
+</ol>
+
+<h2>Qué enviarnos para una recomendación</h2>
+<ul>
+  <li>Marca y modelo de la zaranda, número de cubiertas, dimensiones de las cubiertas y sistema de fijación</li>
+  <li>Tipo de material, tamaño de alimentación, humedad y capacidad de procesamiento</li>
+  <li>Tamaños de producto requeridos y cualquier límite de sobretamaño o subtamaño</li>
+  <li>Tipo de medio actual, abertura y vida útil, si va a reemplazar mallas existentes</li>
+</ul>
+<p>Fabricamos a medida malla para zarandas de cantera y medios de cribado para áridos, incluidos malla de alambre tejido, alambre soldado y paneles de caucho y de poliuretano, para cualquier zaranda vibratoria, con plazos de entrega de 7–15 días hábiles. Comuníquese con nuestro equipo de ingeniería en contact.contact@screenmesh.org para recibir una recomendación y una cotización.</p>
+    `.trim(),
+  },
   "rubber-vs-polyurethane-screen-panels": {
     title: "Paneles de caucho vs. poliuretano para zarandas: cómo elegir para su zaranda vibratoria",
     readTime: "7 min de lectura",
