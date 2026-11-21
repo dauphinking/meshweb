@@ -25,6 +25,120 @@ export function localizePost(post: BlogPost, lang: string): BlogPost {
 
 const basePosts: BlogPost[] = [
   {
+    slug: "quarry-screen-mesh-aggregate-screen-media-guide",
+    title: "Quarry Screen Mesh and Aggregate Screen Media: Choosing the Right Screen for Each Deck",
+    date: "2026-11-21",
+    readTime: "8 min read",
+    description:
+      "How to choose quarry screen mesh and aggregate screen media deck by deck: punched plate, woven wire, rubber and polyurethane panels, square vs slotted apertures, wire diameter and open area, and the checks that prevent early wear and blinding.",
+    keywords: [
+      "quarry screen mesh",
+      "aggregate screen media",
+      "woven wire screen mesh",
+      "screen aperture selection",
+      "vibrating screen mesh for quarry",
+    ],
+    content: `
+<p>A quarry or aggregate plant rarely runs one type of screen media from top to bottom. The top deck takes the heaviest impact, the middle decks do most of the sizing, and the bottom deck often handles the finest and stickiest material. Choosing quarry screen mesh deck by deck, instead of buying one type for the whole machine, is one of the simplest ways to extend media life and keep the product specification steady.</p>
+
+<h2>Start With What Each Deck Has to Survive</h2>
+<ul>
+  <li><strong>Top (scalping) deck:</strong> large feed lumps and high drop heights. The main enemy is impact.</li>
+  <li><strong>Middle decks:</strong> continuous abrasion while the deck sizes most of the material. The main enemy is wear.</li>
+  <li><strong>Bottom (fines) deck:</strong> fine, sometimes damp material. The main enemies are blinding and loss of open area.</li>
+</ul>
+<p>Knowing the dominant problem on each deck tells you which type of screen media to look at first.</p>
+
+<h2>Common Types of Aggregate Screen Media</h2>
+<table style="width:100%;border-collapse:collapse;margin:16px 0">
+  <thead>
+    <tr style="background:#f1f5f9">
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Media type</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Strengths</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Watch out for</th>
+      <th style="padding:10px;text-align:left;border:1px solid #e2e8f0">Typical position</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Punched (perforated) plate</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Rigid and robust under heavy loads and large lumps</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Lower open area than woven wire at the same aperture</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Scalping and coarse top decks</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Woven (crimped) wire mesh</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">High open area, accurate sizing, wide choice of apertures and wire diameters</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Wire wears and can break under sustained abrasion or impact; near-size particles can wedge</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Middle and lower decks, general sizing</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Welded wire screens</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Rigid panel with consistent apertures for heavy-duty service</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Weld quality drives service life</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Hard rock and heavy-duty sizing</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Rubber panels</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Absorbs impact, quiet</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Generally limited to coarser apertures</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Feed end and scalping decks</td>
+    </tr>
+    <tr>
+      <td style="padding:10px;border:1px solid #e2e8f0"><strong>Polyurethane panels</strong></td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Long wear life in abrasive duty, finer apertures possible, lighter panels</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Choose the hardness and aperture shape to suit the feed</td>
+      <td style="padding:10px;border:1px solid #e2e8f0">Middle and lower decks, wet or fine screening</td>
+    </tr>
+  </tbody>
+</table>
+<p>For a closer comparison of the two modular materials, see <a href="rubber-vs-polyurethane-screen-panels">rubber vs polyurethane screen panels</a> and <a href="polyurethane-screen-panel-properties">polyurethane screen panel properties</a>.</p>
+
+<h2>Choosing the Aperture</h2>
+<p>The aperture is normally chosen slightly larger than the nominal product size you want to separate, because particles close to the opening size are held back or pass slowly. The allowance depends on the material, the moisture, the screen angle and the accuracy you need, so treat any rule of thumb as a starting point and confirm it with a sieve test of the product.</p>
+<ul>
+  <li><strong>Square apertures</strong> give the most accurate size control.</li>
+  <li><strong>Slotted apertures</strong> usually increase capacity and reduce blinding, but elongated and flaky particles can pass through, so the product shape matters.</li>
+  <li><strong>Product specification first.</strong> If the customer specification limits oversize or undersize, size the aperture and test the result against that limit, not against the nominal figure.</li>
+</ul>
+
+<h2>Wire Diameter and Open Area</h2>
+<p>For woven wire, a thicker wire lasts longer but takes up more of the surface, so the open area falls and capacity drops. A thinner wire gives more open area but wears and fatigues sooner. The right balance depends on how abrasive and how heavy the feed is. On the top deck lean toward robustness, and on lower decks where capacity and accurate sizing matter, lean toward open area.</p>
+
+<h2>Tension, Fixing and Support</h2>
+<p>Many early failures come from the installation rather than the material:</p>
+<ul>
+  <li>Wire cloth that is too loose flaps and fatigues; cloth that is overtightened can crack at the hooks</li>
+  <li>Worn or uneven support rails let the media flex and break</li>
+  <li>Modular panels need clean, undamaged frames and the right fixing system for the screen model</li>
+</ul>
+<p>Check the supports and the fixing system every time the media is changed. Our guide on <a href="vibrating-screen-performance-and-screen-mesh">how vibrating screen set-up affects screening performance</a> covers the machine side in more detail.</p>
+
+<h2>Blinding and Wet Feed</h2>
+<p>If the bottom deck blinds, look first at the moisture of the feed and the shape of the aperture before changing the whole screen. Tapered apertures, more flexible media or a different aperture shape often help. See <a href="common-causes-of-screen-mesh-clogging">common causes of screen mesh clogging</a> and <a href="how-to-prevent-screen-hole-clogging">how to prevent screen hole clogging</a>.</p>
+
+<h2>Selection Checklist</h2>
+<ol>
+  <li>Identify the main problem on each deck: impact, wear or blinding.</li>
+  <li>Set the target product size and the allowed oversize and undersize.</li>
+  <li>Pick the media type for each deck, not one type for the whole screen.</li>
+  <li>Choose square or slotted apertures based on accuracy versus capacity.</li>
+  <li>Balance wire diameter against open area for woven wire.</li>
+  <li>Check tension, fixing and supports at every change-out.</li>
+  <li>Compare options by cost per tonne screened, not by price per panel.</li>
+</ol>
+
+<h2>What to Send Us for a Recommendation</h2>
+<ul>
+  <li>Screen make and model, number of decks, deck dimensions and fixing system</li>
+  <li>Material type, feed size, moisture and throughput</li>
+  <li>Required product sizes and any oversize or undersize limits</li>
+  <li>Current media type, aperture and service life, if you are replacing existing screens</li>
+</ul>
+<p>We manufacture custom quarry screen mesh and aggregate screen media, including woven wire, welded wire, rubber and polyurethane panels, to fit any vibrating screen, with lead times of 7–15 working days. Contact our engineering team at contact.contact@screenmesh.org for a recommendation and quote.</p>
+    `.trim(),
+  },
+  {
     slug: "rubber-vs-polyurethane-screen-panels",
     title: "Rubber vs Polyurethane Screen Panels: How to Choose for Your Vibrating Screen",
     date: "2026-11-09",
