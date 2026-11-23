@@ -24,6 +24,7 @@ export async function generateMetadata({
     alternates: {
       canonical: `https://www.screenmesh.org/${lang}/blog`,
       languages: Object.fromEntries(locales.map((l) => [l, `https://www.screenmesh.org/${l}/blog`])),
+      types: { "application/rss+xml": `https://www.screenmesh.org/${lang}/feed.xml` },
     },
   }
 }
